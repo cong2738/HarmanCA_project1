@@ -11,8 +11,8 @@ def get_route (start_adress, end_adress, adressType):
 
     # API URL
     URL = "https://apis.openapi.sk.com/transit/routes"
-    start_stationXY = Geocoder.XY_at(start_adress)
-    end_stationXY = Geocoder.XY_at(end_adress)
+    start_stationXY = Geocoder.XY_at(start_adress, adressType)
+    end_stationXY = Geocoder.XY_at(end_adress, adressType)
 
     print(start_stationXY.get_stationLoc())
     print(end_stationXY.get_stationLoc())
@@ -55,4 +55,4 @@ def get_route (start_adress, end_adress, adressType):
             print(f"❌ API 호출 실패: {response.status_code}, {response.text}")
 
 if __name__ == "__main__":
-    print(get_route("개화","목동"))
+    print(get_route("개화동 664","목동 926-3", "ROAD"))
