@@ -10,7 +10,19 @@ URL = f"http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst
 response = requests.get(URL)
 data = response.json()
 # print(data)
-target_data = {"T1H":"기온", "RN1":"강수량", "REH":"습도", "PTY":"강수형태", "WSD":"풍속"}
 
-print(data["response"]["body"]["item"]["item"])
+#"T1H":"기온", "RN1":"강수량", "REH":"습도", "PTY":"강수형태", "WSD":"풍속"
+target_category = ["T1H", "RN1", "REH", "PTY", "WSD"]
+target_value = "obsrValue"
 
+res = dict()
+
+# print(data["response"]["body"]["items"]["item"])
+for weather_dict in data["response"]["body"]["items"]["item"]:
+    print(weather_dict["category"])
+
+    if not weather_dict["category"] in target_category: continue
+    print(weather_dict["obsrValue"])
+    res[weather_dict["category"]] = weather_dict["obsrValue"]
+
+print(res)

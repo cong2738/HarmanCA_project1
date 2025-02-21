@@ -5,7 +5,7 @@ modDate: 2025-02-20
 
 import pandas as pd
 def set_data(city):
-    df = pd.read_csv("weather_grid.csv", encoding="cp949") #기상청 관측소 데이터
+    df = pd.read_csv("./data/weather_grid.csv", encoding="cp949") #기상청 관측소 데이터
     df = df.loc[(df["1단계"] == city)][["2단계", "격자 X",  "격자 Y"]] #기상청 관측소 데이터 필터링
     df = df.dropna() #결측값이 들어간 데이터를 삭제한다.
     df = df.drop_duplicates(["2단계"]) #데이터 활용의 편의성을 위해 같은 구의 다른 좌표는 제거한다.
