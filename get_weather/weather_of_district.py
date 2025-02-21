@@ -1,7 +1,8 @@
 import requests
 import make_districtPosion_dic
+import os
 
-KEY ="Tdkh73UoWaP3uvgZc%2FAn32wh9oel2JvlSQs23ZUjYdM472sbLLv46g1w5betnvsoIoxuNsPcmVrYR3I3nAWgsg%3D%3D"
+KEY =os.getenv("KMA_API_KEY")
 district = "종로구"
 todayString = '20250220'
 currentTime = '1000'
