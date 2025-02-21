@@ -9,6 +9,9 @@ TEST_KEY = os.getenv("TMAP_TEST_KEY")
 # API URL
 URL = "https://apis.openapi.sk.com/transit/routes"
 
+sx,sy
+ex,ey
+
 # 요청 헤더
 headers = {
     "accept": "application/json",
@@ -18,10 +21,10 @@ headers = {
 
 # 요청 데이터 (JSON)
 data = {
-    "startX": "126.926493082645",
-    "startY": "37.6134436427887",
-    "endX": "127.126936754911",
-    "endY": "37.5004198786564",
+    "startX": sx,
+    "startY": sy,
+    "endX": ex,
+    "endY": ey,
     "lang": 0,
     "format": "json",
     "count": 10,
