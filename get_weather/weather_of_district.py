@@ -2,7 +2,7 @@ import requests
 import make_districtPosion_dic
 import os
 
-KEY =os.getenv("API_KEY")
+KEY =os.getenv("DATAGOKR_API_KEY")
 district = "종로구"
 todayString = '20250220'
 currentTime = '1000'
