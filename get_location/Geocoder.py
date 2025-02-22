@@ -19,9 +19,14 @@ def XY_at(rode_id,road_type): #'ROAD':도로명 주소 'PARCEL':지번 주소
         "key": key
     }
     response = requests.get(apiurl, params=params)
-    if response.status_code == 200:
-        data = response.json()
-        x,y = tuple(data["response"]["result"]["point"].values())
+    if response.status_code != 200: # 응답완료가 아닐시 에러
+        return None
+    
+    data = response.json()["response"]
+    if data["status"] != "OK": #비정상 상태시 에러
+        return None
+    
+    (x,y) = tuple(data["result"]["point"].values())
         
     return x,y
 
