@@ -1,3 +1,6 @@
+"""
+writer: 박호윤
+"""
 import json
 
 with open("tmap_subway.json", "r", encoding="UTF-8") as f:
