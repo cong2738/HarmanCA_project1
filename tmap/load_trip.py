@@ -54,10 +54,10 @@ def get_route (start_adress, end_adress, adressType):
     response_data = response.json()
     
     # JSON 데이터를 파일로 저장
-    with open("tmap_subway.json", "w", encoding="utf-8") as f:
+    with open("./data/tmap_trip.json", "w", encoding="utf-8") as f:
         json.dump(response_data, f, ensure_ascii=False, indent=4)
     
-    print("✅ tmap_subway.json 파일 저장 완료!")
+    print("✅ tmap_trip.json 파일 저장 완료!")
     
 
 if __name__ == "__main__":
