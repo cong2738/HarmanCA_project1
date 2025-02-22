@@ -18,5 +18,8 @@ def set_data(city):
 
 def get_districtPosion_dic():
     res = set_data("서울특별시")
-    res.update(set_data("경기도"))    
+    res.update(set_data("경기도"))
     return res
+
+if __name__ == "__main__":
+    print(get_districtPosion_dic())
