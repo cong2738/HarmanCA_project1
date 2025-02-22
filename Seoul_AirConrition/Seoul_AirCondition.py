@@ -13,17 +13,11 @@ class Seoul_Air_Quality:
 
     def set_seoul_air_quality(self):
         api_key = os.getenv("JIHO_SEOUL_API_KEY") 
-        res = dict()
         url = f"http://openAPI.seoul.go.kr:8088/{api_key}/json/RealtimeCityAir/1/100/"
         response = requests.get(url)
         data = response.json()
-        key_names = ["MSRSTE_NM","O3","PM10","PM25","SO2"]
-        for line in data["RealtimeCityAir"]["row"]:
-            print(line)
-            for key_name in key_names:
-                res[line[key_name]] = line[key_name] 
 
-        return res
+        return data["RealtimeCityAir"]["row"][0] #최상위 도시만 출력
 
     def get_Air_Qualitys(self):
         self.Seoul_Air_Quality_dict
