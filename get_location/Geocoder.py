@@ -8,7 +8,6 @@ import os
 
 def XY_at(rode_id,road_type): #'ROAD':도로명 주소 'PARCEL':지번 주소
     key = os.getenv("V_WORLD_KEY") 
-    import requests
     apiurl = "https://api.vworld.kr/req/address?"
     params = {
         "service": "address",
@@ -27,4 +26,4 @@ def XY_at(rode_id,road_type): #'ROAD':도로명 주소 'PARCEL':지번 주소
     return x,y
 
 if __name__ == "__main__":
-    print(geocoder_XYat("판교로 242","ROAD") )
+    print(XY_at("판교로 242","ROAD") )
