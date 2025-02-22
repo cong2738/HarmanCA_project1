@@ -7,7 +7,7 @@ writer: 박호윤
         adressType: 주소형식('ROAD':도로명 주소 'PARCEL':지번 주소)
 """
 import requests,json,os
-from getLoc import geocoder,Get_starionXY
+from getLoc.geocoder import Geocoder
 
 def get_route (start_adress, end_adress, adressType):
     # API_KEY
@@ -17,16 +17,16 @@ def get_route (start_adress, end_adress, adressType):
     # API URL
     URL = "https://apis.openapi.sk.com/transit/routes"
     
-    start_stationXY = geocoder.XY_at(start_adress, adressType)
-    end_stationXY = geocoder.XY_at(end_adress, adressType)
+    start_loc = Geocoder(start_adress, adressType)
+    end_loc = Geocoder(end_adress, adressType)
 
 
     # 두위치중 하나라도 None이라면 에러
-    if not (start_stationXY.get_stationLoc() and end_stationXY.get_stationLoc()): 
+    if not (start_loc.get_loc() and end_loc.getloc()): 
         return None
     
-    sx,sy = start_stationXY.get_stationLoc()
-    ex,ey = end_stationXY.get_stationLoc()
+    sx,sy = start_loc.get_loc()
+    ex,ey = end_loc.get_loc()
 
     # 요청 헤더
     headers = {
