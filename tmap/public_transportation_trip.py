@@ -6,11 +6,8 @@ writer: 박호윤
         end_adress: 도착위치 주소
         adressType: 주소형식('ROAD':도로명 주소 'PARCEL':지번 주소)
 """
-
-import requests
-import json
-import os
-import getLoc.Geocoder as Geocoder
+import requests,json,os
+import getLoc
 #from get_location.legacy.get_stationXY import Get_starionXY
 
 def get_route (start_adress, end_adress, adressType):
@@ -20,11 +17,10 @@ def get_route (start_adress, end_adress, adressType):
 
     # API URL
     URL = "https://apis.openapi.sk.com/transit/routes"
-    start_stationXY = Geocoder.XY_at(start_adress, adressType)
-    end_stationXY = Geocoder.XY_at(end_adress, adressType)
+    
+    start_stationXY = getLoc.geocoder.XY_at(start_adress, adressType)
+    end_stationXY = getLoc.geocoder.XY_at(end_adress, adressType)
 
-    print(start_stationXY.get_stationLoc())
-    print(end_stationXY.get_stationLoc())
 
     # 두위치중 하나라도 None이라면 에러
     if not (start_stationXY.get_stationLoc() and end_stationXY.get_stationLoc()): 
@@ -70,4 +66,4 @@ def get_route (start_adress, end_adress, adressType):
     
 
 if __name__ == "__main__":
-    print(get_route("개화동 664","목동 926-3", "ROAD"))
+    print(get_route("개화동 664","목동로 201", "ROAD"))
