@@ -7,8 +7,7 @@ writer: 박호윤
         adressType: 주소형식('ROAD':도로명 주소 'PARCEL':지번 주소)
 """
 import requests,json,os
-import getLoc
-#from get_location.legacy.get_stationXY import Get_starionXY
+from getLoc import geocoder,Get_starionXY
 
 def get_route (start_adress, end_adress, adressType):
     # API_KEY
@@ -18,8 +17,8 @@ def get_route (start_adress, end_adress, adressType):
     # API URL
     URL = "https://apis.openapi.sk.com/transit/routes"
     
-    start_stationXY = getLoc.geocoder.XY_at(start_adress, adressType)
-    end_stationXY = getLoc.geocoder.XY_at(end_adress, adressType)
+    start_stationXY = geocoder.XY_at(start_adress, adressType)
+    end_stationXY = geocoder.XY_at(end_adress, adressType)
 
 
     # 두위치중 하나라도 None이라면 에러
