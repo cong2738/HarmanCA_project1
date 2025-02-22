@@ -9,7 +9,7 @@
 import requests
 import json
 import os
-import Geocoder
+import getLoc.Geocoder as Geocoder
 #from get_location.legacy.get_stationXY import Get_starionXY
 
 def get_route (start_adress, end_adress, adressType):
