@@ -10,17 +10,16 @@ import os
 import datetime
 
 class KMA_Weather:
-    def __init__(self):
-        self.kma_weather = self.make_weather_dict()
+    def __init__(self, district):
+        self.kma_weather = self.make_weather_dict(district)
 
     def timenow(self):
         KST = datetime.timezone(datetime.timedelta(hours=9))
         current_time_kst = datetime.datetime.now(KST)
         return current_time_kst.strftime('%Y%m%d')
     
-    def set_data(self):
+    def set_data(self, district):
         KEY = os.getenv("DATAGOKR_API_KEY")
-        district = "종로구"
         todayString = self.timenow()
         currentTime = '1000'
         x,y = make_districtPosion_dic.get_districtPosion_dic()[district]
@@ -29,9 +28,9 @@ class KMA_Weather:
         data = response.json()
         return data
 
-    def make_weather_dict(self):
+    def make_weather_dict(self, district):
         res = dict()
-        data = self.set_data()
+        data = self.set_data(district)
 
         #"T1H":"기온", "RN1":"강수량", "REH":"습도", "PTY":"강수형태", "WSD":"풍속"
         target_category = ["T1H", "RN1", "REH", "PTY", "WSD"]
@@ -48,5 +47,5 @@ class KMA_Weather:
         return self.kma_weather
     
 if __name__ == "__main__":
-    weather = KMA_Weather()
+    weather = KMA_Weather("종로구")
     weather.get_weatherDict()
