@@ -28,8 +28,6 @@ class Seoul_Air_Quality:
     def get_Air_Qualitys(self):
         self.Seoul_Air_Quality_dict
 
-
-
 if __name__ == "__main__":
     A = Seoul_Air_Quality()
     print(A.get_Air_Qualitys())
