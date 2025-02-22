@@ -59,5 +59,6 @@ def get_route (start_adress, end_adress, adressType):
     
     print("✅ tmap_subway.json 파일 저장 완료!")
     
+
 if __name__ == "__main__":
     print(get_route("개화동 664","목동 926-3", "ROAD"))
