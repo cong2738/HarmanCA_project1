@@ -1,5 +1,4 @@
 """
-    modDate: 2025-02-21
     서울시 실시간 미세먼지 데이터 class
     Seoul_Air_Quality_dict : 서울시 실시간 미세먼지 데이터가 저장된 dict
 """
