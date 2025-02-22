@@ -1,3 +1,11 @@
+"""
+티맵 대중교통API 활용 여행 경로 요청
+    -input:
+        start_adress: 출발위치 주소
+        end_adress: 도착위치 주소
+        adressType: 주소형식('ROAD':도로명 주소 'PARCEL':지번 주소)
+"""
+
 import requests
 import json
 import os
