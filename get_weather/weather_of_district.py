@@ -36,6 +36,7 @@ class KMA_Weather:
         target_category = ["T1H", "RN1", "REH", "PTY", "WSD"]
 
         # print(data["response"]["body"]["items"]["item"])
+        
         for weather_dict in data["response"]["body"]["items"]["item"]:
             if not weather_dict["category"] in target_category: continue
             res[weather_dict["category"]] = weather_dict["obsrValue"]
