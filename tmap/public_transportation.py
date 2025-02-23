@@ -22,6 +22,7 @@ class Trip:
             self.routes = self.set_routes(num_of_routes)
     
     def get_routes(self):
+        ''' return [[fare, totalTime, totalWalkTime, station_list], ...] '''
         return self.routes
 
     def set_routes(self, n:int):
