@@ -47,7 +47,7 @@ class Trip:
 
         return res
 
-    def set_travel (self, start_adress, end_adress, adressType):
+    def set_travel (self, start_adress, end_adress, adress_type):
         # API_KEY
         API_KEY = os.getenv("TMAP_PT_KEY")
         TEST_KEY = os.getenv("TMAP_TEST_KEY")
