@@ -1,16 +1,20 @@
-"""
-writer: 박호윤
-티맵 대중교통API 활용 여행 경로 요청
-    -input:
-        num_of_routes:  경로 갯수
-        start_adress:   출발위치 주소
-        end_adress:     도착위치 주소
-        adressType:     주소형식('ROAD':도로명 주소 'PARCEL':지번 주소)
-"""
 import requests,json,os
 from getLoc.geocoder import Geocoder
 
+
+
 class Trip:
+    """
+    티맵 대중교통API 활용 여행 경로 요청
+        -input:
+            num_of_routes:  경로 갯수
+            start_adress:   출발위치 주소
+            end_adress:     도착위치 주소
+            adressType:     주소형식('ROAD':도로명 주소 'PARCEL':지번 주소)
+        
+        -object:
+            routes:         경로리스트
+    """
     def __init__(self, num_of_routes, start_adress, end_adress, adressType):
         try:
             self.routes = self.set_routesInfo(num_of_routes)
