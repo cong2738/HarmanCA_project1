@@ -14,7 +14,7 @@ class Geocoder:
         ex) 안양시 동안구 부림로169번길 22
     """
 
-    def __init__(self, rode_id, rode_type):
+    def __init__(self, rode_id:str, rode_type:str):
         self.xy = self.setloc_at(rode_id,rode_type)
                                 
     def setloc_at(self,rode_id,road_type): #'ROAD':도로명 주소 'PARCEL':지번 주소

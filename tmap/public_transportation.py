@@ -13,7 +13,7 @@ class Trip:
         -object:
             routes:         경로리스트
     """
-    def __init__(self, num_of_routes, start_adress, end_adress, adressType):
+    def __init__(self, num_of_routes:int, start_adress:str, end_adress:str, adressType:str):
         try:
             self.routes = self.set_routes(num_of_routes)
         except:
