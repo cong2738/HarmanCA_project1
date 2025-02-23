@@ -27,7 +27,7 @@ class Trip:
 
     def set_routes(self, n:int):
         res = list()
-        with open("./data/tmap_publicTp.json", "r", encoding="UTF-8") as file:
+        with open("./_data/tmap_publicTp.json", "r", encoding="UTF-8") as file:
             data = json.load(file)
         route_list = data["metaData"]["plan"]["itineraries"]
         for i in range(n):
@@ -96,7 +96,7 @@ class Trip:
         response_data = response.json()
         
         # JSON 데이터를 파일로 저장
-        with open("./data/tmap_publicTp.json", "w", encoding="utf-8") as f:
+        with open("./_data/tmap_publicTp.json", "w", encoding="utf-8") as f:
             json.dump(response_data, f, ensure_ascii=False, indent=4)
         
         print("✅ tmap_trip.json 파일 저장 완료!")
