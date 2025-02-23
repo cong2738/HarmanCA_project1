@@ -55,8 +55,8 @@ class Trip:
         # API URL
         URL = "https://apis.openapi.sk.com/transit/routes"
         
-        start = Geocoder(start_adress, adressType)
-        end = Geocoder(end_adress, adressType)
+        start = Geocoder(start_adress, adress_type)
+        end = Geocoder(end_adress, adress_type)
 
 
         # 두위치중 하나라도 None이라면 에러
