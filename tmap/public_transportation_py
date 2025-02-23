@@ -1,8 +1,6 @@
 import requests,json,os
 from getLoc.geocoder import Geocoder
 
-
-
 class Trip:
     """
     티맵 대중교통API 활용 여행 경로 요청
