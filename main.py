@@ -9,8 +9,9 @@ from airconrition import seoul_airCondition
 weather = kma_weather.KMA_Weather()
 aircondition = seoul_airCondition.Seoul_Air_Quality()
 
+n =1 
 pt_param = {
-    "num_of_routes" : 1,
+    "num_of_routes" : n,
     "start_adress" : "서울 양천구 목동로 201",
     "end_adress" : "서울 강서구 화곡로 179",
     "adress_type" : "ROAD"
