@@ -3,7 +3,7 @@ from tmap import public_transportation
 from airconrition import seoul_airCondition
 
 """
-여기는 메인 실행 어플리케이션입니다. 
+여기는 메인 실행 어플리캐이션입니다. 
 """
 
 start_adress = "서울 양천구 목동로 201"
