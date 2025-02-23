@@ -42,9 +42,9 @@ class Geocoder:
             
         return x,y
     
-    def get_loc(self):
+    def location(self):
         return self.xy
 
 if __name__ == "__main__":
     loc = Geocoder("판교로 242","ROAD")
-    print(loc.get_loc() )
+    print(loc.location() )

@@ -9,7 +9,7 @@ writer: 박호윤
 import requests,json,os
 from getLoc.geocoder import Geocoder
 
-def get_route (start_adress, end_adress, adressType):
+def set_travel (start_adress, end_adress, adressType):
     # API_KEY
     API_KEY = os.getenv("TMAP_PT_KEY")
     TEST_KEY = os.getenv("TMAP_TEST_KEY")
@@ -17,16 +17,16 @@ def get_route (start_adress, end_adress, adressType):
     # API URL
     URL = "https://apis.openapi.sk.com/transit/routes"
     
-    start_loc = Geocoder(start_adress, adressType)
-    end_loc = Geocoder(end_adress, adressType)
+    start = Geocoder(start_adress, adressType)
+    end = Geocoder(end_adress, adressType)
 
 
     # 두위치중 하나라도 None이라면 에러
-    if not (start_loc.get_loc() and end_loc.getloc()): 
+    if not (start.location() and end.getloc()): 
         return None
     
-    sx,sy = start_loc.get_loc()
-    ex,ey = end_loc.get_loc()
+    sx,sy = start.location()
+    ex,ey = end.location()
 
     # 요청 헤더
     headers = {
@@ -65,4 +65,4 @@ def get_route (start_adress, end_adress, adressType):
     
 
 if __name__ == "__main__":
-    print(get_route("개화동 664","목동로 201", "ROAD"))
+    print(set_travel("개화동 664","목동로 201", "ROAD"))
