@@ -1,7 +1,4 @@
-
-
-import requests
-import os
+import requests,os
 
 class Seoul_Air_Quality:
     """
