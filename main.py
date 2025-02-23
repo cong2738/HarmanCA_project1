@@ -2,7 +2,6 @@ from tmap import public_transportation
 from weather import kma_weather
 from airconrition import seoul_airCondition
 
-
 """
 여기는 메인 실행 어플리캐이션입니다. 
 """
