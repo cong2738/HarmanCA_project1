@@ -12,19 +12,20 @@ class Trip:
         
         -object:
             routes:         경로리스트
+                get_routes
     """
     def __init__(self, num_of_routes, start_adress, end_adress, adressType):
         try:
-            self.routes = self.set_routesInfo(num_of_routes)
+            self.routes = self.get_routes(num_of_routes)
         except:
             print("Fail to  open json")
             self.set_travel(start_adress, end_adress, adressType)
-            self.routes = self.set_routesInfo(num_of_routes)
+            self.routes = self.get_routes(num_of_routes)
     
     def get_routesInfo(self):
         return self.routes
 
-    def set_routesInfo(self, n:int):
+    def get_routes(self, n:int):
         res = list()
         with open("./data/tmap_publicTp.json", "r", encoding="UTF-8") as file:
             data = json.load(file)
