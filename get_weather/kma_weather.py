@@ -1,7 +1,5 @@
-import requests
+import requests, datetime, os
 import make_districtPosion_dic
-import os
-import datetime
 
 class KMA_Weather:
     """
