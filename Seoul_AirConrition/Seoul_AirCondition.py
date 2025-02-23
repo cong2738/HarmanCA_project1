@@ -1,12 +1,13 @@
-"""
-    서울시 실시간 미세먼지 데이터 class
-    Seoul_Air_Quality_dict : 서울시 실시간 미세먼지 데이터가 저장된 dict
-"""
+
 
 import requests
 import os
 
 class Seoul_Air_Quality:
+    """
+    서울시 실시간 미세먼지 데이터 class
+    Seoul_Air_Quality_dict : 서울시 실시간 미세먼지 데이터가 저장된 dict
+    """
     def __init__(self):
         self.Seoul_Air_Quality_dict = self.set_seoul_air_quality()
 

@@ -1,7 +1,4 @@
-"""
-기상청 단기예보API에서 원하는 기상정보 추출 dict형태 사용
-"T1H":"기온", "RN1":"강수량", "REH":"습도", "PTY":"강수형태", "WSD":"풍속"
-"""
+
 
 import requests
 import make_districtPosion_dic
@@ -9,6 +6,10 @@ import os
 import datetime
 
 class KMA_Weather:
+    """
+    기상청 단기예보API에서 원하는 기상정보 추출 dict형태 사용
+    "T1H":"기온", "RN1":"강수량", "REH":"습도", "PTY":"강수형태", "WSD":"풍속"
+    """
     def __init__(self):
         self.kma_weather = self.make_weather_dict()
 
