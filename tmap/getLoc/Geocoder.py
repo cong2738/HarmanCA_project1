@@ -2,7 +2,6 @@ import requests
 import os
 class Geocoder:
     """
-    writer: 박호윤
     Geocoder API 2.0을 활용한 주소-좌표 변환기
     'ROAD':도로명 주소 'PARCEL':지번 주소
     검색 키워드
