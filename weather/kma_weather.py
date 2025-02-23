@@ -1,5 +1,5 @@
 import requests, datetime, os
-import make_districtPosion_dic
+from weather import make_districtPosion_dic
 
 class KMA_Weather:
     """
@@ -51,4 +51,4 @@ class KMA_Weather:
     
 if __name__ == "__main__":
     weather = KMA_Weather()
-    weather.get_weatherDict()
+    print(weather.get_weatherDict())
