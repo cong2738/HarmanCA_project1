@@ -1,12 +1,20 @@
 from weather import kma_weather
 from tmap import public_transportation
-from Seoul_AirConrition import seoul_airCondition
+from tmap.getLoc.geocoder import Geocoder
+from airconrition import seoul_airCondition
 
 """
 여기는 메인 실행 어플리케이션입니다. 
 """
 
-weather = get_weather.kma_weather()
-my_tmap = tmap()
+start_adress = "서울 양천구 목동로 201"
+end_adress = "서울 강서구 화곡로 179"
+adress_type = "ROAD"
 
-weather.get_weatherDict()
+weather = kma_weather.KMA_Weather()
+my_tmap = public_transportation.Trip(1, start_adress, end_adress, adress_type)
+aircondition = seoul_airCondition.Seoul_Air_Quality()
+
+print(weather.get_weatherDict())
+my_tmap.get_routes()
+aircondition.get_Air_Qualitys()
