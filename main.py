@@ -1,6 +1,5 @@
 from weather import kma_weather
 from tmap import public_transportation
-from tmap.getLoc.geocoder import Geocoder
 from airconrition import seoul_airCondition
 
 """
@@ -12,9 +11,9 @@ end_adress = "서울 강서구 화곡로 179"
 adress_type = "ROAD"
 
 weather = kma_weather.KMA_Weather()
-my_tmap = public_transportation.Trip(1, start_adress, end_adress, adress_type)
 aircondition = seoul_airCondition.Seoul_Air_Quality()
+my_tmap = public_transportation.Trip(1, start_adress, end_adress, adress_type)
 
 print(weather.get_weatherDict())
-my_tmap.get_routes()
-aircondition.get_Air_Qualitys()
+print(aircondition.get_Air_Qualitys())
+print(my_tmap.get_routes())
