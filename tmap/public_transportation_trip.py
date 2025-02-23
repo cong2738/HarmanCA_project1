@@ -22,7 +22,7 @@ def set_travel (start_adress, end_adress, adressType):
 
 
     # 두위치중 하나라도 None이라면 에러
-    if not (start.location() and end.getloc()): 
+    if not (start.location() and end.location()): 
         return None
     
     sx,sy = start.location()
