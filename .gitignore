@@ -1,4 +1,4 @@
 # API KEY
 *.env
 
-test.py
+test*
