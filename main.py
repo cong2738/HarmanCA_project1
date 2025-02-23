@@ -1,7 +1,7 @@
-import tmap.public_transportation
+from tmap import public_transportation
 from weather import kma_weather
-import tmap
 from airconrition import seoul_airCondition
+
 
 """
 여기는 메인 실행 어플리캐이션입니다. 
@@ -16,7 +16,7 @@ pt_param = {
     "end_adress" : "서울 강서구 화곡로 179",
     "adress_type" : "ROAD"
 }
-my_tmap = tmap.public_transportation.Trip(*pt_param.values())
+my_tmap =public_transportation.Trip(*pt_param.values())
 
 print(weather.get_weatherDict())
 print(aircondition.get_Air_Qualitys())
