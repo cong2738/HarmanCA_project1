@@ -1,20 +1,20 @@
-"""
-writer: 박호윤
-Geocoder API 2.0을 활용한 주소-좌표 변환기
-'ROAD':도로명 주소 'PARCEL':지번 주소
-검색 키워드
-    지번주소 : 법정동 + 지번까지 입력
-    ex) 관양동 1588-8
-    ex) 경기도 안양시 동안구 관양동 1588-8
-
-    도로명주소 : 시군구 + 도로명 + 건물번호 입력
-    ex) 부림로169번길 22
-    ex) 안양시 동안구 부림로169번길 22
-"""
-
 import requests
 import os
 class Geocoder:
+    """
+    writer: 박호윤
+    Geocoder API 2.0을 활용한 주소-좌표 변환기
+    'ROAD':도로명 주소 'PARCEL':지번 주소
+    검색 키워드
+        지번주소 : 법정동 + 지번까지 입력
+        ex) 관양동 1588-8
+        ex) 경기도 안양시 동안구 관양동 1588-8
+
+        도로명주소 : 시군구 + 도로명 + 건물번호 입력
+        ex) 부림로169번길 22
+        ex) 안양시 동안구 부림로169번길 22
+    """
+
     def __init__(self, rode_id, rode_type):
         self.xy = self.setloc_at(rode_id,rode_type)
                                 
