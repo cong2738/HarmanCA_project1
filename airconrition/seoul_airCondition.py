@@ -16,7 +16,7 @@ class Seoul_Air_Quality:
         data = response.json()
         key_names = ["MSRSTE_NM","O3","PM10","PM25","SO2"]
         top_line = data["RealtimeCityAir"]["row"][0]
-        print(top_line)
+        # print(top_line)
         for key_name in key_names:
             res[key_name] = top_line[key_name] 
 
