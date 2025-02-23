@@ -10,7 +10,7 @@ weather = kma_weather.KMA_Weather()
 aircondition = seoul_airCondition.Seoul_Air_Quality()
 
 pt_param = {
-    "num_of_routes" : 3,
+    "num_of_routes" : 1,
     "start_adress" : "서울 양천구 목동로 201",
     "end_adress" : "서울 강서구 화곡로 179",
     "adress_type" : "ROAD"
