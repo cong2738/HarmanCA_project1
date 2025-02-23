@@ -9,11 +9,13 @@ from airconrition import seoul_airCondition
 weather = kma_weather.KMA_Weather()
 aircondition = seoul_airCondition.Seoul_Air_Quality()
 
-num_of_routes = 1
-start_adress = "서울 양천구 목동로 201"
-end_adress = "서울 강서구 화곡로 179"
-adress_type = "ROAD"
-my_tmap = public_transportation.Trip(num_of_routes, start_adress, end_adress, adress_type)
+pt_param = {
+    "num_of_routes" : 1,
+    "start_adress" : "서울 양천구 목동로 201",
+    "end_adress" : "서울 강서구 화곡로 179",
+    "adress_type" : "ROAD"
+}
+my_tmap = public_transportation.Trip(*pt_param.values())
 
 print(weather.get_weatherDict())
 print(aircondition.get_Air_Qualitys())
