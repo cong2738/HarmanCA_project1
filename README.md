@@ -1,3 +1,6 @@
+# 출근비서
+- 박호윤, 박지수, 박지호, 박현민
+
 getweather - 기상청 단기 예보API 활용 실시간 날씨 정보 요청
     https://www.data.go.kr/data/15084084/openapi.do
 
