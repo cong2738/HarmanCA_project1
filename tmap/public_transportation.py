@@ -1,5 +1,5 @@
 import requests,json,os
-from tmap.getLoc.Geocoder import Geocoder
+from tmap.getLoc.geocoder import Geocoder
 
 class Trip:
     """
