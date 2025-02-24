@@ -2,7 +2,7 @@ import requests,json,os
 
 class subway_congestionAPI:
     def __init__(self,stations:list):
-        self.API_KEY = os.getenv("imoAtElq6A3MqwqKgNB3K8RJhOeuapZ3MZVDeOdb")
+        self.API_KEY = os.getenv("JIHO_TMAP_KEY")
         self.station_codes = self.set_subway_stations_code()
         self.station_congestionDict = self.set_congestionDict(stations)
         print(self.station_congestionDict)
