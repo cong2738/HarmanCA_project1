@@ -100,6 +100,15 @@ class Trip:
             json.dump(response_data, f, ensure_ascii=False, indent=4)
         
         print("✅ tmap_trip.json 파일 저장 완료!")
+
+class Pub_weight:
+    def __init__(self):
+        self.weight = 0
+    
+    def get_weight(self):
+        return self.weight
+    
+
     
 
 if __name__ == "__main__":
