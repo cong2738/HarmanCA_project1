@@ -1,4 +1,4 @@
-from Subway_congestion import SubwayCongestion
+from subway_congestion import SubwayCongestion
 
 def get_user_selection(options, prompt):
     """ 사용자가 입력한 값을 검증 후 반환하는 함수 """
