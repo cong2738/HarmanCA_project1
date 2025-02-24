@@ -1,11 +1,16 @@
 import requests,json,os
 
 class subway_congestionAPI:
+    """
+    주의: API토큰먹는 괴물임
+    """
     def __init__(self,stations:list):
         self.API_KEY = os.getenv("JIHO_TMAP_KEY")
         self.station_codes = self.set_subway_stations_code()
         self.station_congestionDict = self.set_congestionDict(stations)
-        print(self.station_congestionDict)
+    
+    def get_station_congestionDict(self):
+        return self.station_congestionDict
     
     def make_stationCode_json(self):
         # 요청 헤더
@@ -29,8 +34,9 @@ class subway_congestionAPI:
         print("JSON 데이터가 subway_stations_code.json 파일로 저장되었습니다.")
 
     def make_stationCongestion_json(self,station):
+        station_name = station+"역"
         # 요청 헤더
-        code = self.station_codes[station]
+        code = self.station_codes[station_name]
         url = f"https://apis.openapi.sk.com/puzzle/subway/congestion/stat/train/stations/{code}"
         headers = {
             "appkey": self.API_KEY
@@ -59,7 +65,7 @@ class subway_congestionAPI:
     def set_congestionDict(self, stations):
         congestionDict = dict()
         for station in stations:
-            if station not in self.station_codes.key:
+            if station not in self.station_codes.keys():
                 congestionDict[station] = self.set_congestion(station)
         return congestionDict
     
@@ -82,5 +88,6 @@ class subway_congestionAPI:
         return res
 
 if __name__ == "__main__":
-    sc = subway_congestionAPI(['목동', '신정', '까치산', '화곡'])
-    print(sc)
+    # sc = subway_congestionAPI(['5호선 목동', '5호선 신정', '5호선 까치산', '5호선 화곡'])
+    # print(sc.get_station_congestionDict())
+    pass
