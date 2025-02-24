@@ -20,9 +20,9 @@ my_tmap =public_transportation.Trip(*pt_param.values())
 # sbway_congestion = subway_congestionAPI.Subway_congestionAPI()
 
 
-print(weather.get_weatherDict())
-print(aircondition.get_Air_Qualitys())
-print(*my_tmap.get_routes(), sep='\n')
+seou_weather = weather.get_weatherDict()
+get_Air_Qualitys = aircondition.get_Air_Qualitys()
+totalFare,totalTime,totalWalkTime,stations = my_tmap.get_routes()
 
 # station_congestionDict = subway_congestion.get_station_congestionDict()
 # print(station_congestionDict)
