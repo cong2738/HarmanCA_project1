@@ -1,7 +1,7 @@
-from tmap import TMapRouteFinder
+from tmap import tmaproutefinder
 
 api_key = "KEY"  # 🚨 실제 API 키 입력 필수
-route_finder = TMapRouteFinder(api_key)
+route_finder = tmaproutefinder(api_key)
 
 start_x, start_y = 126.798153, 37.578608  # 개화산
 end_x, end_y = 126.864931, 37.526065  # 목동
