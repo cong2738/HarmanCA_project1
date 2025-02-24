@@ -8,7 +8,6 @@ class SubwayCongestion:
         self.condict = condict
 
     def remove_bus_stations(self):
-        # 버스 정류장을 제거하는 로직
         subway_stations = []
         for station in self.stations:
             if station in self.condict:
@@ -21,7 +20,7 @@ class SubwayCongestion:
         count = 0
         for idx, station in enumerate(subway_stations):
             if station == station_name:
-                if self.condict.get(station, 0) == 0 and idx+1 < len(subway_stations):
+                if self.condict.get(station, 0) == 0 and idx + 1 < len(subway_stations):
                     next_station = subway_stations[idx + 1]
                     total_people += self.condict.get(next_station, 0) * 0.8
                 else:
@@ -59,14 +58,6 @@ def load_station_data(filepath):
     with open(filepath, "r", encoding="utf-8") as file:
         for line in file:
             station, value = line.strip().split(",")
+            station = station.replace("역", "")
             condict[station] = int(value)
     return condict
-
-
-# 메인 실행 코드
-stations = ["505번 속초고등학교", "1호선 서울역", "1호선 시청역"]
-condict = load_station_data("EXDATA.txt")
-
-subway_congestion = SubwayCongestion(stations, condict)
-result = subway_congestion.get_congestion_status("1호선 서울역")
-print(result)
