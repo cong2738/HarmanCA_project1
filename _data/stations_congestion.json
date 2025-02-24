@@ -5,2887 +5,727 @@
         "totalCount": 1
     },
     "contents": {
-        "subwayLine": "1호선",
-        "stationName": "서울역",
-        "stationCode": "133",
+        "subwayLine": "5호선",
+        "stationName": "까치산역",
+        "stationCode": "518",
         "stat": [
             {
-                "startStationCode": "100",
-                "startStationName": "소요산역",
-                "endStationCode": "161",
-                "endStationName": "인천역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
+                "startStationCode": "510",
+                "startStationName": "방화역",
+                "endStationCode": "530",
+                "endStationName": "애오개역",
+                "prevStationCode": "517",
+                "prevStationName": "화곡역",
                 "updnLine": 1,
                 "directAt": 0,
                 "data": [
                     {
                         "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 37
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 37
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 18
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 23
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 47
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 47
-                    }
-                ]
-            },
-            {
-                "startStationCode": "100-3",
-                "startStationName": "연천역",
-                "endStationCode": "141",
-                "endStationName": "구로역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 15
-                    }
-                ]
-            },
-            {
-                "startStationCode": "100-3",
-                "startStationName": "연천역",
-                "endStationCode": "152",
-                "endStationName": "부평역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "100-3",
-                "startStationName": "연천역",
-                "endStationCode": "161",
-                "endStationName": "인천역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "101",
-                "startStationName": "동두천역",
-                "endStationCode": "141",
-                "endStationName": "구로역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "101",
-                "startStationName": "동두천역",
-                "endStationCode": "152",
-                "endStationName": "부평역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "101",
-                "startStationName": "동두천역",
-                "endStationCode": "161",
-                "endStationName": "인천역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "101",
-                "startStationName": "동두천역",
-                "endStationCode": "161",
-                "endStationName": "인천역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 1,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 31
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 15
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 32
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 32
-                    }
-                ]
-            },
-            {
-                "startStationCode": "107",
-                "startStationName": "양주역",
-                "endStationCode": "133",
-                "endStationName": "서울역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "107",
-                "startStationName": "양주역",
-                "endStationCode": "141",
-                "endStationName": "구로역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "107",
-                "startStationName": "양주역",
-                "endStationCode": "152",
-                "endStationName": "부평역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "107",
-                "startStationName": "양주역",
-                "endStationCode": "161",
-                "endStationName": "인천역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 40
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 52
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 46
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 27
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 35
-                    }
-                ]
-            },
-            {
-                "startStationCode": "110",
-                "startStationName": "의정부역",
-                "endStationCode": "133",
-                "endStationName": "서울역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "110",
-                "startStationName": "의정부역",
-                "endStationCode": "141",
-                "endStationName": "구로역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "110",
-                "startStationName": "의정부역",
-                "endStationCode": "161",
-                "endStationName": "인천역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 20
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 41
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 41
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 44
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "110",
-                "startStationName": "의정부역",
-                "endStationCode": "P157-1",
-                "endStationName": "서동탄역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "116",
-                "startStationName": "창동역",
-                "endStationCode": "161",
-                "endStationName": "인천역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "119",
-                "startStationName": "광운대역",
-                "endStationCode": "141",
-                "endStationName": "구로역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "119",
-                "startStationName": "광운대역",
-                "endStationCode": "161",
-                "endStationName": "인천역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "119",
-                "startStationName": "광운대역",
-                "endStationCode": "P157",
-                "endStationName": "병점역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 16
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 16
-                    }
-                ]
-            },
-            {
-                "startStationCode": "119",
-                "startStationName": "광운대역",
-                "endStationCode": "P157-1",
-                "endStationName": "서동탄역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 24
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 25
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 27
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 27
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 13
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 16
-                    }
-                ]
-            },
-            {
-                "startStationCode": "119",
-                "startStationName": "광운대역",
-                "endStationCode": "P169",
-                "endStationName": "천안역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "00",
                         "congestionTrain": 28
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "10",
-                        "congestionTrain": 14
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 15
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 15
-                    }
-                ]
-            },
-            {
-                "startStationCode": "119",
-                "startStationName": "광운대역",
-                "endStationCode": "P177",
-                "endStationName": "신창역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "124",
-                "startStationName": "청량리역",
-                "endStationCode": "133",
-                "endStationName": "서울역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "124",
-                "startStationName": "청량리역",
-                "endStationCode": "141",
-                "endStationName": "구로역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "124",
-                "startStationName": "청량리역",
-                "endStationCode": "P157-1",
-                "endStationName": "서동탄역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "124",
-                "startStationName": "청량리역",
-                "endStationCode": "P169",
-                "endStationName": "천안역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 17
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 35
-                    }
-                ]
-            },
-            {
-                "startStationCode": "124",
-                "startStationName": "청량리역",
-                "endStationCode": "P169",
-                "endStationName": "천안역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 1,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 11
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 31
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 32
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 32
-                    }
-                ]
-            },
-            {
-                "startStationCode": "124",
-                "startStationName": "청량리역",
-                "endStationCode": "P177",
-                "endStationName": "신창역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "124",
-                "startStationName": "청량리역",
-                "endStationCode": "P177",
-                "endStationName": "신창역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 1,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 31
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 31
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 16
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 32
-                    }
-                ]
-            },
-            {
-                "startStationCode": "127",
-                "startStationName": "동묘앞역",
-                "endStationCode": "161",
-                "endStationName": "인천역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "127",
-                "startStationName": "동묘앞역",
-                "endStationCode": "P157-1",
-                "endStationName": "서동탄역",
-                "prevStationCode": "132",
-                "prevStationName": "시청역",
-                "updnLine": 1,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 36
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 30
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 37
-                    }
-                ]
-            },
-            {
-                "startStationCode": "141",
-                "startStationName": "구로역",
-                "endStationCode": "100-3",
-                "endStationName": "연천역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 20
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 10
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 9
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 18
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 18
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 17
-                    }
-                ]
-            },
-            {
-                "startStationCode": "141",
-                "startStationName": "구로역",
-                "endStationCode": "101",
-                "endStationName": "동두천역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
                         "congestionTrain": 29
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
+                        "hh": "15",
+                        "mm": "20",
+                        "congestionTrain": 27
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
+                        "mm": "30",
+                        "congestionTrain": 27
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "40",
+                        "congestionTrain": 30
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
                         "mm": "50",
-                        "congestionTrain": 36
+                        "congestionTrain": 30
                     }
                 ]
             },
             {
-                "startStationCode": "141",
-                "startStationName": "구로역",
-                "endStationCode": "107",
-                "endStationName": "양주역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
+                "startStationCode": "510",
+                "startStationName": "방화역",
+                "endStationCode": "544",
+                "endStationName": "군자역",
+                "prevStationCode": "517",
+                "prevStationName": "화곡역",
+                "updnLine": 1,
                 "directAt": 0,
                 "data": [
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "00",
-                        "congestionTrain": 48
+                        "congestionTrain": 28
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
                         "congestionTrain": 29
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
+                        "hh": "15",
+                        "mm": "20",
+                        "congestionTrain": 27
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
+                        "mm": "30",
+                        "congestionTrain": 27
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "40",
+                        "congestionTrain": 30
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
                         "mm": "50",
-                        "congestionTrain": 36
+                        "congestionTrain": 30
                     }
                 ]
             },
             {
-                "startStationCode": "141",
-                "startStationName": "구로역",
-                "endStationCode": "110",
-                "endStationName": "의정부역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
+                "startStationCode": "510",
+                "startStationName": "방화역",
+                "endStationCode": "553",
+                "endStationName": "상일동역",
+                "prevStationCode": "517",
+                "prevStationName": "화곡역",
+                "updnLine": 1,
                 "directAt": 0,
                 "data": [
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "00",
-                        "congestionTrain": 48
+                        "congestionTrain": 28
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
                         "congestionTrain": 29
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
+                        "hh": "15",
+                        "mm": "20",
+                        "congestionTrain": 27
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
+                        "mm": "30",
+                        "congestionTrain": 27
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "40",
+                        "congestionTrain": 30
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
                         "mm": "50",
-                        "congestionTrain": 36
+                        "congestionTrain": 30
                     }
                 ]
             },
             {
-                "startStationCode": "141",
-                "startStationName": "구로역",
-                "endStationCode": "124",
-                "endStationName": "청량리역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
+                "startStationCode": "510",
+                "startStationName": "방화역",
+                "endStationCode": "558",
+                "endStationName": "하남검단산역",
+                "prevStationCode": "517",
+                "prevStationName": "화곡역",
+                "updnLine": 1,
                 "directAt": 0,
                 "data": [
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 36
-                    }
-                ]
-            },
-            {
-                "startStationCode": "152",
-                "startStationName": "부평역",
-                "endStationCode": "100",
-                "endStationName": "소요산역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 36
-                    }
-                ]
-            },
-            {
-                "startStationCode": "152",
-                "startStationName": "부평역",
-                "endStationCode": "101",
-                "endStationName": "동두천역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 36
-                    }
-                ]
-            },
-            {
-                "startStationCode": "161",
-                "startStationName": "인천역",
-                "endStationCode": "100",
-                "endStationName": "소요산역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 41
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 41
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 20
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 16
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 32
-                    }
-                ]
-            },
-            {
-                "startStationCode": "161",
-                "startStationName": "인천역",
-                "endStationCode": "100-3",
-                "endStationName": "연천역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 36
-                    }
-                ]
-            },
-            {
-                "startStationCode": "161",
-                "startStationName": "인천역",
-                "endStationCode": "101",
-                "endStationName": "동두천역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 36
-                    }
-                ]
-            },
-            {
-                "startStationCode": "161",
-                "startStationName": "인천역",
-                "endStationCode": "101",
-                "endStationName": "동두천역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 1,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 26
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 54
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 54
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 56
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 56
-                    }
-                ]
-            },
-            {
-                "startStationCode": "161",
-                "startStationName": "인천역",
-                "endStationCode": "107",
-                "endStationName": "양주역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 60
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 57
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 49
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
                         "congestionTrain": 24
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 16
-                    }
-                ]
-            },
-            {
-                "startStationCode": "161",
-                "startStationName": "인천역",
-                "endStationCode": "110",
-                "endStationName": "의정부역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "10",
-                        "congestionTrain": 48
+                        "congestionTrain": 28
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "20",
-                        "congestionTrain": 43
+                        "congestionTrain": 27
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "30",
-                        "congestionTrain": 23
+                        "congestionTrain": 26
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "40",
-                        "congestionTrain": 48
+                        "congestionTrain": 28
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "50",
-                        "congestionTrain": 48
+                        "congestionTrain": 30
                     }
                 ]
             },
             {
-                "startStationCode": "161",
-                "startStationName": "인천역",
-                "endStationCode": "119",
-                "endStationName": "광운대역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
+                "startStationCode": "510",
+                "startStationName": "방화역",
+                "endStationCode": "P555",
+                "endStationName": "마천역",
+                "prevStationCode": "517",
+                "prevStationName": "화곡역",
+                "updnLine": 1,
                 "directAt": 0,
                 "data": [
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "00",
-                        "congestionTrain": 48
+                        "congestionTrain": 29
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "10",
-                        "congestionTrain": 48
+                        "congestionTrain": 32
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "20",
-                        "congestionTrain": 43
+                        "congestionTrain": 32
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "30",
                         "congestionTrain": 29
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "40",
-                        "congestionTrain": 33
+                        "congestionTrain": 32
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "50",
-                        "congestionTrain": 36
+                        "congestionTrain": 30
                     }
                 ]
             },
             {
-                "startStationCode": "161",
-                "startStationName": "인천역",
-                "endStationCode": "127",
-                "endStationName": "동묘앞역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
+                "startStationCode": "517",
+                "startStationName": "화곡역",
+                "endStationCode": "558",
+                "endStationName": "하남검단산역",
+                "prevStationCode": "517",
+                "prevStationName": "화곡역",
+                "updnLine": 1,
                 "directAt": 0,
                 "data": [
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "00",
-                        "congestionTrain": 48
+                        "congestionTrain": 28
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
                         "congestionTrain": 29
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
+                        "hh": "15",
+                        "mm": "20",
+                        "congestionTrain": 27
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
+                        "mm": "30",
+                        "congestionTrain": 27
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "40",
+                        "congestionTrain": 30
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
                         "mm": "50",
-                        "congestionTrain": 36
+                        "congestionTrain": 30
                     }
                 ]
             },
             {
-                "startStationCode": "P157",
-                "startStationName": "병점역",
-                "endStationCode": "119",
-                "endStationName": "광운대역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
+                "startStationCode": "517",
+                "startStationName": "화곡역",
+                "endStationCode": "P555",
+                "endStationName": "마천역",
+                "prevStationCode": "517",
+                "prevStationName": "화곡역",
+                "updnLine": 1,
                 "directAt": 0,
                 "data": [
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "00",
-                        "congestionTrain": 48
+                        "congestionTrain": 28
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
                         "congestionTrain": 29
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
+                        "hh": "15",
+                        "mm": "20",
+                        "congestionTrain": 27
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
+                        "mm": "30",
+                        "congestionTrain": 27
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "40",
+                        "congestionTrain": 30
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
                         "mm": "50",
-                        "congestionTrain": 36
+                        "congestionTrain": 30
                     }
                 ]
             },
             {
-                "startStationCode": "P157",
-                "startStationName": "병점역",
-                "endStationCode": "124",
-                "endStationName": "청량리역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
+                "startStationCode": "526",
+                "startStationName": "여의도역",
+                "endStationCode": "510",
+                "endStationName": "방화역",
+                "prevStationCode": "519",
+                "prevStationName": "신정역",
                 "updnLine": 0,
                 "directAt": 0,
                 "data": [
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "00",
-                        "congestionTrain": 48
+                        "congestionTrain": 30
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "10",
-                        "congestionTrain": 48
+                        "congestionTrain": 31
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "20",
+                        "congestionTrain": 38
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "30",
                         "congestionTrain": 43
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "40",
-                        "congestionTrain": 33
+                        "congestionTrain": 41
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "50",
-                        "congestionTrain": 36
+                        "congestionTrain": 42
                     }
                 ]
             },
             {
-                "startStationCode": "P157-1",
-                "startStationName": "서동탄역",
-                "endStationCode": "119",
-                "endStationName": "광운대역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
+                "startStationCode": "530",
+                "startStationName": "애오개역",
+                "endStationCode": "510",
+                "endStationName": "방화역",
+                "prevStationCode": "519",
+                "prevStationName": "신정역",
                 "updnLine": 0,
                 "directAt": 0,
                 "data": [
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "00",
-                        "congestionTrain": 51
+                        "congestionTrain": 30
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
+                        "hh": "15",
                         "mm": "10",
+                        "congestionTrain": 31
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "20",
+                        "congestionTrain": 38
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "30",
+                        "congestionTrain": 43
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "40",
+                        "congestionTrain": 41
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "50",
+                        "congestionTrain": 42
+                    }
+                ]
+            },
+            {
+                "startStationCode": "540",
+                "startStationName": "왕십리역",
+                "endStationCode": "510",
+                "endStationName": "방화역",
+                "prevStationCode": "519",
+                "prevStationName": "신정역",
+                "updnLine": 0,
+                "directAt": 0,
+                "data": [
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "00",
+                        "congestionTrain": 30
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "10",
+                        "congestionTrain": 31
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "20",
+                        "congestionTrain": 38
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "30",
+                        "congestionTrain": 43
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "40",
+                        "congestionTrain": 41
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "50",
+                        "congestionTrain": 42
+                    }
+                ]
+            },
+            {
+                "startStationCode": "544",
+                "startStationName": "군자역",
+                "endStationCode": "510",
+                "endStationName": "방화역",
+                "prevStationCode": "519",
+                "prevStationName": "신정역",
+                "updnLine": 0,
+                "directAt": 0,
+                "data": [
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "00",
+                        "congestionTrain": 30
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "10",
+                        "congestionTrain": 31
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "20",
+                        "congestionTrain": 38
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "30",
+                        "congestionTrain": 43
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "40",
+                        "congestionTrain": 41
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "50",
+                        "congestionTrain": 42
+                    }
+                ]
+            },
+            {
+                "startStationCode": "548",
+                "startStationName": "강동역",
+                "endStationCode": "510",
+                "endStationName": "방화역",
+                "prevStationCode": "519",
+                "prevStationName": "신정역",
+                "updnLine": 0,
+                "directAt": 0,
+                "data": [
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "00",
+                        "congestionTrain": 30
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "10",
+                        "congestionTrain": 31
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "20",
+                        "congestionTrain": 38
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "30",
+                        "congestionTrain": 43
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "40",
+                        "congestionTrain": 41
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "50",
+                        "congestionTrain": 42
+                    }
+                ]
+            },
+            {
+                "startStationCode": "553",
+                "startStationName": "상일동역",
+                "endStationCode": "510",
+                "endStationName": "방화역",
+                "prevStationCode": "519",
+                "prevStationName": "신정역",
+                "updnLine": 0,
+                "directAt": 0,
+                "data": [
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "00",
+                        "congestionTrain": 30
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "10",
+                        "congestionTrain": 31
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "20",
+                        "congestionTrain": 38
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "30",
+                        "congestionTrain": 43
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "40",
+                        "congestionTrain": 41
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "50",
+                        "congestionTrain": 42
+                    }
+                ]
+            },
+            {
+                "startStationCode": "558",
+                "startStationName": "하남검단산역",
+                "endStationCode": "510",
+                "endStationName": "방화역",
+                "prevStationCode": "519",
+                "prevStationName": "신정역",
+                "updnLine": 0,
+                "directAt": 0,
+                "data": [
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "00",
+                        "congestionTrain": 33
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "10",
+                        "congestionTrain": 33
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "20",
+                        "congestionTrain": 39
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "30",
+                        "congestionTrain": 41
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "40",
+                        "congestionTrain": 39
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "50",
+                        "congestionTrain": 42
+                    }
+                ]
+            },
+            {
+                "startStationCode": "P555",
+                "startStationName": "마천역",
+                "endStationCode": "510",
+                "endStationName": "방화역",
+                "prevStationCode": "519",
+                "prevStationName": "신정역",
+                "updnLine": 0,
+                "directAt": 0,
+                "data": [
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "00",
+                        "congestionTrain": 28
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "10",
+                        "congestionTrain": 30
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "20",
+                        "congestionTrain": 38
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "30",
+                        "congestionTrain": 45
+                    },
+                    {
+                        "dow": "MON",
+                        "hh": "15",
+                        "mm": "40",
                         "congestionTrain": 44
                     },
                     {
                         "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 54
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
+                        "hh": "15",
+                        "mm": "50",
                         "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 38
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 31
-                    }
-                ]
-            },
-            {
-                "startStationCode": "P157-1",
-                "startStationName": "서동탄역",
-                "endStationCode": "124",
-                "endStationName": "청량리역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 36
-                    }
-                ]
-            },
-            {
-                "startStationCode": "P157-1",
-                "startStationName": "서동탄역",
-                "endStationCode": "127",
-                "endStationName": "동묘앞역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 36
-                    }
-                ]
-            },
-            {
-                "startStationCode": "P169",
-                "startStationName": "천안역",
-                "endStationCode": "119",
-                "endStationName": "광운대역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 36
-                    }
-                ]
-            },
-            {
-                "startStationCode": "P169",
-                "startStationName": "천안역",
-                "endStationCode": "124",
-                "endStationName": "청량리역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 43
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 33
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 36
-                    }
-                ]
-            },
-            {
-                "startStationCode": "P169",
-                "startStationName": "천안역",
-                "endStationCode": "124",
-                "endStationName": "청량리역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 1,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 14
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 40
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 51
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 26
-                    }
-                ]
-            },
-            {
-                "startStationCode": "P169",
-                "startStationName": "천안역",
-                "endStationCode": "133",
-                "endStationName": "서울역",
-                "prevStationCode": "139",
-                "prevStationName": "영등포역",
-                "updnLine": 0,
-                "directAt": 1,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 39
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 52
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 54
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 38
-                    }
-                ]
-            },
-            {
-                "startStationCode": "P177",
-                "startStationName": "신창역",
-                "endStationCode": "119",
-                "endStationName": "광운대역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 17
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 17
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 36
-                    }
-                ]
-            },
-            {
-                "startStationCode": "P177",
-                "startStationName": "신창역",
-                "endStationCode": "124",
-                "endStationName": "청량리역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 0,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 49
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 49
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 42
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 35
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 35
-                    }
-                ]
-            },
-            {
-                "startStationCode": "P177",
-                "startStationName": "신창역",
-                "endStationCode": "124",
-                "endStationName": "청량리역",
-                "prevStationCode": "134",
-                "prevStationName": "남영역",
-                "updnLine": 0,
-                "directAt": 1,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 39
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 52
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 54
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 38
-                    }
-                ]
-            },
-            {
-                "startStationCode": "P177",
-                "startStationName": "신창역",
-                "endStationCode": "133",
-                "endStationName": "서울역",
-                "prevStationCode": "139",
-                "prevStationName": "영등포역",
-                "updnLine": 0,
-                "directAt": 1,
-                "data": [
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "00",
-                        "congestionTrain": 48
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "10",
-                        "congestionTrain": 29
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "20",
-                        "congestionTrain": 39
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "30",
-                        "congestionTrain": 52
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "40",
-                        "congestionTrain": 54
-                    },
-                    {
-                        "dow": "MON",
-                        "hh": "13",
-                        "mm": "50",
-                        "congestionTrain": 38
                     }
                 ]
             }
