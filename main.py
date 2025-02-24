@@ -1,3 +1,4 @@
+from Subway.Subway_congestion import SubwayCongestion
 from tmap import public_transportation, subway_congestionAPI
 from weather import kma_weather
 from airconrition import seoul_airCondition
@@ -28,3 +29,11 @@ totalFare,totalTime,totalWalkTime,stations = my_tmap.get_routes()
 # print(station_congestionDict)
 
 station_congestionDict = {'5호선 목동': 25, '5호선 신정': 25, '5호선 까치산': 28, '5호선 화곡': 28}
+subway_congestion = SubwayCongestion(stations, station_congestionDict)
+
+subway_congestion.get_congestion_status()
+
+#pub_weights
+sub_way_weight = _
+weather_weight = _
+airquality_weight = _
