@@ -54,10 +54,12 @@ class SubwayCongestion:
 
 
 def load_station_data(filepath):
-    condict = {}
+    data = {}
     with open(filepath, "r", encoding="utf-8") as file:
-        for line in file:
-            station, value = line.strip().split(",")
-            station = station.replace("역", "")
-            condict[station] = int(value)
-    return condict
+        exec(file.read(), {}, data)
+    
+    stations = data["stations"]
+    condict = {key.replace("역", ""): value for key, value in data["condict"].items()}
+    
+    return stations, condict
+
