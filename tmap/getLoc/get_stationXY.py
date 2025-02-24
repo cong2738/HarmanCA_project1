@@ -1,6 +1,3 @@
-"""
-writer: 박호윤
-"""
 import json
 
 class Get_starionXY:
