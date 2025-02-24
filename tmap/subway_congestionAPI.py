@@ -1,7 +1,7 @@
 import requests,json,os
 
 class subway_congestionAPI:
-    def __init__(self,stations):
+    def __init__(self,stations:list):
         station_codes = self.set_subway_stations_code()
         station_congestionDict = self.set_congestionDict(stations)
         print(station_congestionDict)
@@ -31,7 +31,8 @@ class subway_congestionAPI:
     def make_stationCongestion_json(self,station):
         # 요청 헤더
         API_KEY = os.getenv("TMAP_PT_KEY")
-        url = f"https://apis.openapi.sk.com/puzzle/subway/congestion/stat/train/stations/{self.station_code[station]}"
+        code = self.station_codes[station]
+        url = f"https://apis.openapi.sk.com/puzzle/subway/congestion/stat/train/stations/{code}"
         headers = {
             "appkey": API_KEY
         }
@@ -47,7 +48,7 @@ class subway_congestionAPI:
             json.dump(data, file, ensure_ascii=False, indent=4)  # JSON 저장
         print("JSON 데이터가 stations_congestion.json 파일로 저장되었습니다.")
 
-    def set_subway_stations_code(self) -> dict:
+    def set_subway_stations_code(self):
         try:
             stations_id = self.set_code()
         except:
@@ -82,5 +83,5 @@ class subway_congestionAPI:
         return res
 
 if __name__ == "__main__":
-    sc = subway_congestionAPI()
+    sc = subway_congestionAPI(['목동', '신정', '까치산', '화곡'])
     print(sc)
