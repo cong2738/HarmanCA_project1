@@ -1,7 +1,7 @@
 import requests
 import json
 from datetime import datetime
-from getLoc.geocoder import Geocoder   # 🚨 Geocoder 클래스 불러오기
+from tmap.getLoc.geocoder import Geocoder   # 🚨 Geocoder 클래스 불러오기
 import os
 
 class TMapRouteFinder:
@@ -138,8 +138,8 @@ class TMapRouteFinder:
         }
 
         # 🚀 JSON 데이터 출력
-        print("\n📌 🚗 TMap 자동차 경로 안내 데이터\n")
-        print(json.dumps(cooked_data, indent=4, ensure_ascii=False))
+        # print("\n📌 🚗 TMap 자동차 경로 안내 데이터\n")
+        # print(json.dumps(cooked_data, indent=4, ensure_ascii=False))
 
         return cooked_data
 
