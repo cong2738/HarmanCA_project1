@@ -1,4 +1,4 @@
-from tmap import public_transportation
+from tmap import public_transportation, subway_congestionAPI
 from weather import kma_weather
 from airconrition import seoul_airCondition
 
@@ -17,7 +17,14 @@ pt_param = {
     "adress_type" : "ROAD"
 }
 my_tmap =public_transportation.Trip(*pt_param.values())
+# sbway_congestion = subway_congestionAPI.Subway_congestionAPI()
+
 
 print(weather.get_weatherDict())
 print(aircondition.get_Air_Qualitys())
 print(*my_tmap.get_routes(), sep='\n')
+
+# station_congestionDict = subway_congestion.get_station_congestionDict()
+# print(station_congestionDict)
+
+station_congestionDict = {'5호선 목동': 25, '5호선 신정': 25, '5호선 까치산': 28, '5호선 화곡': 28}

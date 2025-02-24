@@ -1,6 +1,6 @@
 import requests,json,os
 
-class subway_congestionAPI:
+class Subway_congestionAPI:
     """
     주의: API토큰먹는 괴물임
     """
