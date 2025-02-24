@@ -2,7 +2,7 @@ import requests
 import json
 from datetime import datetime
 from typing import Any
-from Geocoder import Geocoder  # 🚨 Geocoder 클래스 불러오기
+from tmap.getLoc.Geocoder import Geocoder  # 🚨 Geocoder 클래스 불러오기
 
 class TMapRouteFinder:
     """
