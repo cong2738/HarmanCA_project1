@@ -3,29 +3,54 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class SubwayCongestion:
-    def __init__(self, file_path):
-       
-       
+    def __init__(self, stations, condict):
+        self.stations = stations
+        self.condict = condict
 
-    def get_congestion(self, station, time):
-        """ 특정 역과 시간대의 혼잡도 반환 """
-        filtered_data = self.df[self.df['출발역'] == station]
-        if filtered_data.empty:
+    def remove_bus_stations(self):
+        subway_stations = []
+        for station in self.stations:
+            if station in self.condict:
+                subway_stations.append(station)
+        return subway_stations
+
+    def calculate_congestion(self, station_name):
+        subway_stations = self.remove_bus_stations()
+        total_people = 0
+        count = 0
+        for idx, station in enumerate(subway_stations):
+            if station == station_name:
+                if self.condict.get(station, 0) == 0 and idx + 1 < len(subway_stations):
+                    next_station = subway_stations[idx + 1]
+                    total_people += self.condict.get(next_station, 0) * 0.8
+                else:
+                    total_people += self.condict.get(station, 0)
+                count += 1
+
+        if count == 0:
             return None
-        return filtered_data[time].values[0]
 
-    def calculate_avg_congestion(self, selected_stations, time):
-        """ 사용자가 입력한 역들의 특정 시간 평균 혼잡도 계산 """
-        congestions = [self.get_congestion(station, time) for station in selected_stations if self.get_congestion(station, time) is not None]
-        if not congestions:
-            return 0
-        
-        base_avg = np.mean(congestions)
-        
-        # 역 개수 증가 시 가중치 반영 (예: 5% 증가)
-        adjustment_factor = 1 + (len(selected_stations) - 2) * 0.05  
-        adjusted_avg = base_avg * adjustment_factor
-        
-        return min(adjusted_avg, 100)  # 100을 넘지 않도록 제한
+        avg_people = total_people / count
+        congestion_percentage = (avg_people / 160) * 100
 
-  
+        return congestion_percentage
+
+    def get_congestion_status(self, station_name):
+        congestion_percentage = self.calculate_congestion(station_name)
+
+        if congestion_percentage is None:
+            return f"{station_name}의 혼잡도 정보가 없습니다."
+
+        return f'"{station_name}"의 혼잡도는 {congestion_percentage:.1f}%입니다.'
+
+
+def load_station_data(filepath):
+    data = {}
+    with open(filepath, "r", encoding="utf-8") as file:
+        exec(file.read(), {}, data)
+    
+    stations = data["stations"]
+    condict = {key.replace("역", ""): value for key, value in data["condict"].items()}
+    
+    return stations, condict
+

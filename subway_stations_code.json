@@ -1,0 +1,2511 @@
+{
+    "status": {
+        "code": "00",
+        "message": "success",
+        "totalCount": 555,
+        "offset": 0,
+        "limit": 500
+    },
+    "contents": [
+        {
+            "subwayLine": "1호선",
+            "stationName": "소요산역",
+            "stationCode": "100"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "청산역",
+            "stationCode": "100-1"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "전곡역",
+            "stationCode": "100-2"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "연천역",
+            "stationCode": "100-3"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "동두천역",
+            "stationCode": "101"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "보산역",
+            "stationCode": "102"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "동두천중앙역",
+            "stationCode": "103"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "지행역",
+            "stationCode": "104"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "덕정역",
+            "stationCode": "105"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "덕계역",
+            "stationCode": "106"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "양주역",
+            "stationCode": "107"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "녹양역",
+            "stationCode": "108"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "가능역",
+            "stationCode": "109"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "의정부역",
+            "stationCode": "110"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "회룡역",
+            "stationCode": "111"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "망월사역",
+            "stationCode": "112"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "도봉산역",
+            "stationCode": "113"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "도봉역",
+            "stationCode": "114"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "방학역",
+            "stationCode": "115"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "창동역",
+            "stationCode": "116"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "녹천역",
+            "stationCode": "117"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "월계역",
+            "stationCode": "118"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "광운대역",
+            "stationCode": "119"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "석계역",
+            "stationCode": "120"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "신이문역",
+            "stationCode": "121"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "외대앞역",
+            "stationCode": "122"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "회기역",
+            "stationCode": "123"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "청량리역",
+            "stationCode": "124"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "제기동역",
+            "stationCode": "125"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "신설동역",
+            "stationCode": "126"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "동묘앞역",
+            "stationCode": "127"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "동대문역",
+            "stationCode": "128"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "종로5가역",
+            "stationCode": "129"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "종로3가역",
+            "stationCode": "130"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "종각역",
+            "stationCode": "131"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "시청역",
+            "stationCode": "132"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "서울역",
+            "stationCode": "133"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "남영역",
+            "stationCode": "134"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "용산역",
+            "stationCode": "135"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "노량진역",
+            "stationCode": "136"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "대방역",
+            "stationCode": "137"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "신길역",
+            "stationCode": "138"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "영등포역",
+            "stationCode": "139"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "신도림역",
+            "stationCode": "140"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "구로역",
+            "stationCode": "141"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "구일역",
+            "stationCode": "142"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "개봉역",
+            "stationCode": "143"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "오류동역",
+            "stationCode": "144"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "온수역",
+            "stationCode": "145"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "역곡역",
+            "stationCode": "146"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "소사역",
+            "stationCode": "147"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "부천역",
+            "stationCode": "148"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "중동역",
+            "stationCode": "149"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "송내역",
+            "stationCode": "150"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "부개역",
+            "stationCode": "151"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "부평역",
+            "stationCode": "152"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "백운역",
+            "stationCode": "153"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "동암역",
+            "stationCode": "154"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "간석역",
+            "stationCode": "155"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "주안역",
+            "stationCode": "156"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "도화역",
+            "stationCode": "157"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "제물포역",
+            "stationCode": "158"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "도원역",
+            "stationCode": "159"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "동인천역",
+            "stationCode": "160"
+        },
+        {
+            "subwayLine": "1호선",
+            "stationName": "인천역",
+            "stationCode": "161"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "시청역",
+            "stationCode": "201"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "을지로입구역",
+            "stationCode": "202"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "을지로3가역",
+            "stationCode": "203"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "을지로4가역",
+            "stationCode": "204"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "동대문역사문화공원역",
+            "stationCode": "205"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "신당역",
+            "stationCode": "206"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "상왕십리역",
+            "stationCode": "207"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "왕십리역",
+            "stationCode": "208"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "한양대역",
+            "stationCode": "209"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "뚝섬역",
+            "stationCode": "210"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "성수역",
+            "stationCode": "211"
+        },
+        {
+            "subwayLine": "2호선성수지선",
+            "stationName": "성수역",
+            "stationCode": "211-0"
+        },
+        {
+            "subwayLine": "2호선성수지선",
+            "stationName": "용답역",
+            "stationCode": "211-1"
+        },
+        {
+            "subwayLine": "2호선성수지선",
+            "stationName": "신답역",
+            "stationCode": "211-2"
+        },
+        {
+            "subwayLine": "2호선성수지선",
+            "stationName": "용두역",
+            "stationCode": "211-3"
+        },
+        {
+            "subwayLine": "2호선성수지선",
+            "stationName": "신설동역",
+            "stationCode": "211-4"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "성수역",
+            "stationCode": "211-R"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "건대입구역",
+            "stationCode": "212"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "구의역",
+            "stationCode": "213"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "강변역",
+            "stationCode": "214"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "잠실나루역",
+            "stationCode": "215"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "잠실역",
+            "stationCode": "216"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "잠실새내역",
+            "stationCode": "217"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "종합운동장역",
+            "stationCode": "218"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "삼성역",
+            "stationCode": "219"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "선릉역",
+            "stationCode": "220"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "역삼역",
+            "stationCode": "221"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "강남역",
+            "stationCode": "222"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "교대역",
+            "stationCode": "223"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "서초역",
+            "stationCode": "224"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "방배역",
+            "stationCode": "225"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "사당역",
+            "stationCode": "226"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "낙성대역",
+            "stationCode": "227"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "서울대입구역",
+            "stationCode": "228"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "봉천역",
+            "stationCode": "229"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "신림역",
+            "stationCode": "230"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "신대방역",
+            "stationCode": "231"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "구로디지털단지역",
+            "stationCode": "232"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "대림역",
+            "stationCode": "233"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "신도림역",
+            "stationCode": "234"
+        },
+        {
+            "subwayLine": "2호선신도림지선",
+            "stationName": "신도림역",
+            "stationCode": "234-0"
+        },
+        {
+            "subwayLine": "2호선신도림지선",
+            "stationName": "도림천역",
+            "stationCode": "234-1"
+        },
+        {
+            "subwayLine": "2호선신도림지선",
+            "stationName": "양천구청역",
+            "stationCode": "234-2"
+        },
+        {
+            "subwayLine": "2호선신도림지선",
+            "stationName": "신정네거리역",
+            "stationCode": "234-3"
+        },
+        {
+            "subwayLine": "2호선신도림지선",
+            "stationName": "까치산역",
+            "stationCode": "234-4"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "문래역",
+            "stationCode": "235"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "영등포구청역",
+            "stationCode": "236"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "당산역",
+            "stationCode": "237"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "합정역",
+            "stationCode": "238"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "홍대입구역",
+            "stationCode": "239"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "신촌역",
+            "stationCode": "240"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "이대역",
+            "stationCode": "241"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "아현역",
+            "stationCode": "242"
+        },
+        {
+            "subwayLine": "2호선",
+            "stationName": "충정로역",
+            "stationCode": "243"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "대화역",
+            "stationCode": "309"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "주엽역",
+            "stationCode": "310"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "정발산역",
+            "stationCode": "311"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "마두역",
+            "stationCode": "312"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "백석역",
+            "stationCode": "313"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "대곡역",
+            "stationCode": "314"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "화정역",
+            "stationCode": "315"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "원당역",
+            "stationCode": "316"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "원흥역",
+            "stationCode": "317"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "삼송역",
+            "stationCode": "318"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "지축역",
+            "stationCode": "319"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "구파발역",
+            "stationCode": "320"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "연신내역",
+            "stationCode": "321"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "불광역",
+            "stationCode": "322"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "녹번역",
+            "stationCode": "323"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "홍제역",
+            "stationCode": "324"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "무악재역",
+            "stationCode": "325"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "독립문역",
+            "stationCode": "326"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "경복궁역",
+            "stationCode": "327"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "안국역",
+            "stationCode": "328"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "종로3가역",
+            "stationCode": "329"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "을지로3가역",
+            "stationCode": "330"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "충무로역",
+            "stationCode": "331"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "동대입구역",
+            "stationCode": "332"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "약수역",
+            "stationCode": "333"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "금호역",
+            "stationCode": "334"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "옥수역",
+            "stationCode": "335"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "압구정역",
+            "stationCode": "336"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "신사역",
+            "stationCode": "337"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "잠원역",
+            "stationCode": "338"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "고속터미널역",
+            "stationCode": "339"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "교대역",
+            "stationCode": "340"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "남부터미널역",
+            "stationCode": "341"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "양재역",
+            "stationCode": "342"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "매봉역",
+            "stationCode": "343"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "도곡역",
+            "stationCode": "344"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "대치역",
+            "stationCode": "345"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "학여울역",
+            "stationCode": "346"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "대청역",
+            "stationCode": "347"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "일원역",
+            "stationCode": "348"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "수서역",
+            "stationCode": "349"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "가락시장역",
+            "stationCode": "350"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "경찰병원역",
+            "stationCode": "351"
+        },
+        {
+            "subwayLine": "3호선",
+            "stationName": "오금역",
+            "stationCode": "352"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "진접역",
+            "stationCode": "405"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "오남역",
+            "stationCode": "406"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "별내별가람역",
+            "stationCode": "408"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "불암산역",
+            "stationCode": "409"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "상계역",
+            "stationCode": "410"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "노원역",
+            "stationCode": "411"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "창동역",
+            "stationCode": "412"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "쌍문역",
+            "stationCode": "413"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "수유역",
+            "stationCode": "414"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "미아역",
+            "stationCode": "415"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "미아사거리역",
+            "stationCode": "416"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "길음역",
+            "stationCode": "417"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "성신여대입구역",
+            "stationCode": "418"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "한성대입구역",
+            "stationCode": "419"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "혜화역",
+            "stationCode": "420"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "동대문역",
+            "stationCode": "421"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "동대문역사문화공원역",
+            "stationCode": "422"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "충무로역",
+            "stationCode": "423"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "명동역",
+            "stationCode": "424"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "회현역",
+            "stationCode": "425"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "서울역",
+            "stationCode": "426"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "숙대입구역",
+            "stationCode": "427"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "삼각지역",
+            "stationCode": "428"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "신용산역",
+            "stationCode": "429"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "이촌역",
+            "stationCode": "430"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "동작역",
+            "stationCode": "431"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "이수역",
+            "stationCode": "432"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "사당역",
+            "stationCode": "433"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "남태령역",
+            "stationCode": "434"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "선바위역",
+            "stationCode": "435"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "경마공원역",
+            "stationCode": "436"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "대공원역",
+            "stationCode": "437"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "과천역",
+            "stationCode": "438"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "정부과천청사역",
+            "stationCode": "439"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "인덕원역",
+            "stationCode": "440"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "평촌역",
+            "stationCode": "441"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "범계역",
+            "stationCode": "442"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "금정역",
+            "stationCode": "443"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "산본역",
+            "stationCode": "444"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "수리산역",
+            "stationCode": "445"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "대야미역",
+            "stationCode": "446"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "반월역",
+            "stationCode": "447"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "상록수역",
+            "stationCode": "448"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "한대앞역",
+            "stationCode": "449"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "중앙역",
+            "stationCode": "450"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "고잔역",
+            "stationCode": "451"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "초지역",
+            "stationCode": "452"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "안산역",
+            "stationCode": "453"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "신길온천역",
+            "stationCode": "454"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "정왕역",
+            "stationCode": "455"
+        },
+        {
+            "subwayLine": "4호선",
+            "stationName": "오이도역",
+            "stationCode": "456"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "방화역",
+            "stationCode": "510"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "개화산역",
+            "stationCode": "511"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "김포공항역",
+            "stationCode": "512"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "송정역",
+            "stationCode": "513"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "마곡역",
+            "stationCode": "514"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "발산역",
+            "stationCode": "515"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "우장산역",
+            "stationCode": "516"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "화곡역",
+            "stationCode": "517"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "까치산역",
+            "stationCode": "518"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "신정역",
+            "stationCode": "519"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "목동역",
+            "stationCode": "520"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "오목교역",
+            "stationCode": "521"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "양평역",
+            "stationCode": "522"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "영등포구청역",
+            "stationCode": "523"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "영등포시장역",
+            "stationCode": "524"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "신길역",
+            "stationCode": "525"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "여의도역",
+            "stationCode": "526"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "여의나루역",
+            "stationCode": "527"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "마포역",
+            "stationCode": "528"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "공덕역",
+            "stationCode": "529"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "애오개역",
+            "stationCode": "530"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "충정로역",
+            "stationCode": "531"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "서대문역",
+            "stationCode": "532"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "광화문역",
+            "stationCode": "533"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "종로3가역",
+            "stationCode": "534"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "을지로4가역",
+            "stationCode": "535"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "동대문역사문화공원역",
+            "stationCode": "536"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "청구역",
+            "stationCode": "537"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "신금호역",
+            "stationCode": "538"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "행당역",
+            "stationCode": "539"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "왕십리역",
+            "stationCode": "540"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "마장역",
+            "stationCode": "541"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "답십리역",
+            "stationCode": "542"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "장한평역",
+            "stationCode": "543"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "군자역",
+            "stationCode": "544"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "아차산역",
+            "stationCode": "545"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "광나루역",
+            "stationCode": "546"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "천호역",
+            "stationCode": "547"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "강동역",
+            "stationCode": "548"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "길동역",
+            "stationCode": "549"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "굽은다리역",
+            "stationCode": "550"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "명일역",
+            "stationCode": "551"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "고덕역",
+            "stationCode": "552"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "상일동역",
+            "stationCode": "553"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "강일역",
+            "stationCode": "554"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "미사역",
+            "stationCode": "555"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "하남풍산역",
+            "stationCode": "556"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "하남시청역",
+            "stationCode": "557"
+        },
+        {
+            "subwayLine": "5호선",
+            "stationName": "하남검단산역",
+            "stationCode": "558"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "응암역",
+            "stationCode": "610"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "역촌역",
+            "stationCode": "611"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "불광역",
+            "stationCode": "612"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "독바위역",
+            "stationCode": "613"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "연신내역",
+            "stationCode": "614"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "구산역",
+            "stationCode": "615"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "새절역",
+            "stationCode": "616"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "증산역",
+            "stationCode": "617"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "디지털미디어시티역",
+            "stationCode": "618"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "월드컵경기장역",
+            "stationCode": "619"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "마포구청역",
+            "stationCode": "620"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "망원역",
+            "stationCode": "621"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "합정역",
+            "stationCode": "622"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "상수역",
+            "stationCode": "623"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "광흥창역",
+            "stationCode": "624"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "대흥역",
+            "stationCode": "625"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "공덕역",
+            "stationCode": "626"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "효창공원앞역",
+            "stationCode": "627"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "삼각지역",
+            "stationCode": "628"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "녹사평역",
+            "stationCode": "629"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "이태원역",
+            "stationCode": "630"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "한강진역",
+            "stationCode": "631"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "버티고개역",
+            "stationCode": "632"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "약수역",
+            "stationCode": "633"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "청구역",
+            "stationCode": "634"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "신당역",
+            "stationCode": "635"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "동묘앞역",
+            "stationCode": "636"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "창신역",
+            "stationCode": "637"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "보문역",
+            "stationCode": "638"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "안암역",
+            "stationCode": "639"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "고려대역",
+            "stationCode": "640"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "월곡역",
+            "stationCode": "641"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "상월곡역",
+            "stationCode": "642"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "돌곶이역",
+            "stationCode": "643"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "석계역",
+            "stationCode": "644"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "태릉입구역",
+            "stationCode": "645"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "화랑대역",
+            "stationCode": "646"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "봉화산역",
+            "stationCode": "647"
+        },
+        {
+            "subwayLine": "6호선",
+            "stationName": "신내역",
+            "stationCode": "648"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "장암역",
+            "stationCode": "709"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "도봉산역",
+            "stationCode": "710"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "수락산역",
+            "stationCode": "711"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "마들역",
+            "stationCode": "712"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "노원역",
+            "stationCode": "713"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "중계역",
+            "stationCode": "714"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "하계역",
+            "stationCode": "715"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "공릉역",
+            "stationCode": "716"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "태릉입구역",
+            "stationCode": "717"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "먹골역",
+            "stationCode": "718"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "중화역",
+            "stationCode": "719"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "상봉역",
+            "stationCode": "720"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "면목역",
+            "stationCode": "721"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "사가정역",
+            "stationCode": "722"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "용마산역",
+            "stationCode": "723"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "중곡역",
+            "stationCode": "724"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "군자역",
+            "stationCode": "725"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "어린이대공원역",
+            "stationCode": "726"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "건대입구역",
+            "stationCode": "727"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "자양역",
+            "stationCode": "728"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "청담역",
+            "stationCode": "729"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "강남구청역",
+            "stationCode": "730"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "학동역",
+            "stationCode": "731"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "논현역",
+            "stationCode": "732"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "반포역",
+            "stationCode": "733"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "고속터미널역",
+            "stationCode": "734"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "내방역",
+            "stationCode": "735"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "이수역",
+            "stationCode": "736"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "남성역",
+            "stationCode": "737"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "숭실대입구역",
+            "stationCode": "738"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "상도역",
+            "stationCode": "739"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "장승배기역",
+            "stationCode": "740"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "신대방삼거리역",
+            "stationCode": "741"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "보라매역",
+            "stationCode": "742"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "신풍역",
+            "stationCode": "743"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "대림역",
+            "stationCode": "744"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "남구로역",
+            "stationCode": "745"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "가산디지털단지역",
+            "stationCode": "746"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "철산역",
+            "stationCode": "747"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "광명사거리역",
+            "stationCode": "748"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "천왕역",
+            "stationCode": "749"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "온수역",
+            "stationCode": "750"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "까치울역",
+            "stationCode": "751"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "부천종합운동장역",
+            "stationCode": "752"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "춘의역",
+            "stationCode": "753"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "신중동역",
+            "stationCode": "754"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "부천시청역",
+            "stationCode": "755"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "상동역",
+            "stationCode": "756"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "삼산체육관역",
+            "stationCode": "757"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "굴포천역",
+            "stationCode": "758"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "부평구청역",
+            "stationCode": "759"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "산곡역",
+            "stationCode": "760"
+        },
+        {
+            "subwayLine": "7호선",
+            "stationName": "석남역",
+            "stationCode": "761"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "별내역",
+            "stationCode": "804"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "다산역",
+            "stationCode": "805"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "동구릉역",
+            "stationCode": "806"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "구리역",
+            "stationCode": "807"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "장자호수공원역",
+            "stationCode": "808"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "암사역사공원역",
+            "stationCode": "809"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "암사역",
+            "stationCode": "810"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "천호역",
+            "stationCode": "811"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "강동구청역",
+            "stationCode": "812"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "몽촌토성역",
+            "stationCode": "813"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "잠실역",
+            "stationCode": "814"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "석촌역",
+            "stationCode": "815"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "송파역",
+            "stationCode": "816"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "가락시장역",
+            "stationCode": "817"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "문정역",
+            "stationCode": "818"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "장지역",
+            "stationCode": "819"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "복정역",
+            "stationCode": "820"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "남위례역",
+            "stationCode": "821"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "산성역",
+            "stationCode": "822"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "남한산성입구역",
+            "stationCode": "823"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "단대오거리역",
+            "stationCode": "824"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "신흥역",
+            "stationCode": "825"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "수진역",
+            "stationCode": "826"
+        },
+        {
+            "subwayLine": "8호선",
+            "stationName": "모란역",
+            "stationCode": "827"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "개화역",
+            "stationCode": "901"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "김포공항역",
+            "stationCode": "902"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "공항시장역",
+            "stationCode": "903"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "신방화역",
+            "stationCode": "904"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "마곡나루역",
+            "stationCode": "905"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "양천향교역",
+            "stationCode": "906"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "가양역",
+            "stationCode": "907"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "증미역",
+            "stationCode": "908"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "등촌역",
+            "stationCode": "909"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "염창역",
+            "stationCode": "910"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "신목동역",
+            "stationCode": "911"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "선유도역",
+            "stationCode": "912"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "당산역",
+            "stationCode": "913"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "국회의사당역",
+            "stationCode": "914"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "여의도역",
+            "stationCode": "915"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "샛강역",
+            "stationCode": "916"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "노량진역",
+            "stationCode": "917"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "노들역",
+            "stationCode": "918"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "흑석역",
+            "stationCode": "919"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "동작역",
+            "stationCode": "920"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "구반포역",
+            "stationCode": "921"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "신반포역",
+            "stationCode": "922"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "고속터미널역",
+            "stationCode": "923"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "사평역",
+            "stationCode": "924"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "신논현역",
+            "stationCode": "925"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "언주역",
+            "stationCode": "926"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "선정릉역",
+            "stationCode": "927"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "삼성중앙역",
+            "stationCode": "928"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "봉은사역",
+            "stationCode": "929"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "종합운동장역",
+            "stationCode": "930"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "삼전역",
+            "stationCode": "931"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "석촌고분역",
+            "stationCode": "932"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "석촌역",
+            "stationCode": "933"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "송파나루역",
+            "stationCode": "934"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "한성백제역",
+            "stationCode": "935"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "올림픽공원역",
+            "stationCode": "936"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "둔촌오륜역",
+            "stationCode": "937"
+        },
+        {
+            "subwayLine": "9호선",
+            "stationName": "중앙보훈병원역",
+            "stationCode": "938"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "서울역",
+            "stationCode": "A01"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "공덕역",
+            "stationCode": "A02"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "홍대입구역",
+            "stationCode": "A03"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "디지털미디어시티역",
+            "stationCode": "A04"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "마곡나루역",
+            "stationCode": "A042"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "김포공항역",
+            "stationCode": "A05"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "계양역",
+            "stationCode": "A06"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "검암역",
+            "stationCode": "A07"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "청라국제도시역",
+            "stationCode": "A071"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "영종역",
+            "stationCode": "A072"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "운서역",
+            "stationCode": "A08"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "공항화물청사역",
+            "stationCode": "A09"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "인천공항1터미널역",
+            "stationCode": "A10"
+        },
+        {
+            "subwayLine": "공항철도",
+            "stationName": "인천공항2터미널역",
+            "stationCode": "A11"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "신사역",
+            "stationCode": "D04"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "논현역",
+            "stationCode": "D05"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "신논현역",
+            "stationCode": "D06"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "강남역",
+            "stationCode": "D07"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "양재역",
+            "stationCode": "D08"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "양재시민의숲역",
+            "stationCode": "D09"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "청계산입구역",
+            "stationCode": "D10"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "판교역",
+            "stationCode": "D11"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "정자역",
+            "stationCode": "D12"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "미금역",
+            "stationCode": "D13"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "동천역",
+            "stationCode": "D14"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "수지구청역",
+            "stationCode": "D15"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "성복역",
+            "stationCode": "D16"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "상현역",
+            "stationCode": "D17"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "광교중앙역",
+            "stationCode": "D18"
+        },
+        {
+            "subwayLine": "신분당선",
+            "stationName": "광교역",
+            "stationCode": "D19"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "청량리역",
+            "stationCode": "K209"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "왕십리역",
+            "stationCode": "K210"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "서울숲역",
+            "stationCode": "K211"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "압구정로데오역",
+            "stationCode": "K212"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "강남구청역",
+            "stationCode": "K213"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "선정릉역",
+            "stationCode": "K214"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "선릉역",
+            "stationCode": "K215"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "한티역",
+            "stationCode": "K216"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "도곡역",
+            "stationCode": "K217"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "구룡역",
+            "stationCode": "K218"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "개포동역",
+            "stationCode": "K219"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "대모산입구역",
+            "stationCode": "K220"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "수서역",
+            "stationCode": "K221"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "복정역",
+            "stationCode": "K222"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "가천대역",
+            "stationCode": "K223"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "태평역",
+            "stationCode": "K224"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "모란역",
+            "stationCode": "K225"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "야탑역",
+            "stationCode": "K226"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "이매역",
+            "stationCode": "K227"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "서현역",
+            "stationCode": "K228"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "수내역",
+            "stationCode": "K229"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "정자역",
+            "stationCode": "K230"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "미금역",
+            "stationCode": "K231"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "오리역",
+            "stationCode": "K232"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "죽전역",
+            "stationCode": "K233"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "보정역",
+            "stationCode": "K234"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "구성역",
+            "stationCode": "K235"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "신갈역",
+            "stationCode": "K236"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "기흥역",
+            "stationCode": "K237"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "상갈역",
+            "stationCode": "K238"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "청명역",
+            "stationCode": "K239"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "영통역",
+            "stationCode": "K240"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "망포역",
+            "stationCode": "K241"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "매탄권선역",
+            "stationCode": "K242"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "수원시청역",
+            "stationCode": "K243"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "매교역",
+            "stationCode": "K244"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "수원역",
+            "stationCode": "K245"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "고색역",
+            "stationCode": "K246"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "오목천역",
+            "stationCode": "K247"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "어천역",
+            "stationCode": "K248"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "야목역",
+            "stationCode": "K249"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "사리역",
+            "stationCode": "K250"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "한대앞역",
+            "stationCode": "K251"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "중앙역",
+            "stationCode": "K252"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "고잔역",
+            "stationCode": "K253"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "초지역",
+            "stationCode": "K254"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "안산역",
+            "stationCode": "K255"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "신길온천역",
+            "stationCode": "K256"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "정왕역",
+            "stationCode": "K257"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "오이도역",
+            "stationCode": "K258"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "달월역",
+            "stationCode": "K259"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "월곶역",
+            "stationCode": "K260"
+        },
+        {
+            "subwayLine": "수인분당선",
+            "stationName": "소래포구역",
+            "stationCode": "K261"
+        }
+    ]
+}
