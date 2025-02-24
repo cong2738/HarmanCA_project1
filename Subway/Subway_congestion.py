@@ -41,16 +41,7 @@ class SubwayCongestion:
         if congestion_percentage is None:
             return f"{station_name}의 혼잡도 정보가 없습니다."
 
-        if congestion_percentage <= 80:
-            status = '여유'
-        elif 80 < congestion_percentage <= 130:
-            status = '보통'
-        elif 130 < congestion_percentage <= 150:
-            status = '주의'
-        else:
-            status = '혼잡'
-
-        return f'"{station_name}"의 혼잡도는 {congestion_percentage:.1f}%이므로 {status}한 상태입니다.'
+        return f'"{station_name}"의 혼잡도는 {congestion_percentage:.1f}%입니다.'
 
 
 def load_station_data(filepath):

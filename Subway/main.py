@@ -7,7 +7,7 @@ stations, condict = load_station_data(filepath)
 
 subway_congestion = SubwayCongestion(stations, condict)
 
-station_name = "1호선 서울"
+station_name = "1호선 시청"
 result = subway_congestion.get_congestion_status(station_name)
 print(result)
 
