@@ -11,8 +11,7 @@ def get_user_selection(options, prompt):
             return selected_items
         print("❌ 입력한 값이 유효하지 않습니다. 다시 입력하세요.")
 
-# 🚨 CSV 파일 경로 설정
-file_path = r"C:\Users\park ji ho\Desktop\subway_혼잡도_정규화.csv"
+"
 
 # SubwayCongestion 객체 생성
 subway = SubwayCongestion(file_path)
