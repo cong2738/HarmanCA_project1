@@ -1,56 +1,57 @@
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-
 class SubwayCongestion:
     def __init__(self, stations, condict):
         self.stations = stations
         self.condict = condict
 
     def remove_bus_stations(self):
-        subway_stations = []
-        for station in self.stations:
-            if station in self.condict:
-                subway_stations.append(station)
-        return subway_stations
+        return [station for station in self.stations if station in self.condict]
 
-    def calculate_congestion(self, station_name):
+    def calculate_total_congestion(self):
         subway_stations = self.remove_bus_stations()
-        total_people = 0
-        count = 0
+        total_congestion = 0
+        count = len(subway_stations)
+
         for idx, station in enumerate(subway_stations):
-            if station == station_name:
-                if self.condict.get(station, 0) == 0 and idx + 1 < len(subway_stations):
-                    next_station = subway_stations[idx + 1]
-                    total_people += self.condict.get(next_station, 0) * 0.8
-                else:
-                    total_people += self.condict.get(station, 0)
-                count += 1
+            congestion = self.condict.get(station, 0)
+            if congestion == 0:
+                congestion = next(
+                    (self.condict.get(subway_stations[next_idx], 0) * 0.8
+                     for next_idx in range(idx + 1, len(subway_stations))
+                     if self.condict.get(subway_stations[next_idx], 0) != 0),
+                    0
+                )
+            total_congestion += congestion
 
         if count == 0:
-            return None
+            return 0, 0
 
-        avg_people = total_people / count
-        congestion_percentage = (avg_people / 160) * 100
+        avg_congestion = total_congestion / count
 
-        return congestion_percentage
+        # 혼잡도가 높을수록 가중치가 낮아지는 올바른 로직
+        congestion_indicator = avg_congestion
+        congestion_weight = (100 / (congestion_indicator + 100))
 
-    def get_congestion_status(self, station_name):
-        congestion_percentage = self.calculate_congestion(station_name)
+        # 0 미만이면 0으로 처리 (사실상 불가능하지만 안전장치)
+        congestion_weight = max(congestion_weight, 0)
 
-        if congestion_percentage is None:
-            return f"{station_name}의 혼잡도 정보가 없습니다."
+        return total_congestion, congestion_weight
 
-        return f'"{station_name}"의 혼잡도는 {congestion_percentage:.1f}%입니다.'
+    def get_congestion_result(self):
+        total_congestion, congestion_weight = self.calculate_total_congestion()
+        return (f'최종 혼잡도: {total_congestion:.2f}, '
+                f'최종 혼잡도 가중치 결과값은 {congestion_weight:.2f}입니다.')
+
+    def set_selected_stations(self, selected_stations):
+        self.stations = selected_stations
 
 
 def load_station_data(filepath):
     data = {}
     with open(filepath, "r", encoding="utf-8") as file:
         exec(file.read(), {}, data)
-    
+
     stations = data["stations"]
     condict = {key.replace("역", ""): value for key, value in data["condict"].items()}
-    
+
     return stations, condict
 
