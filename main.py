@@ -2,7 +2,7 @@ from Subway.Subway_congestion import SubwayCongestion
 from tmap import public_transportation, subway_congestionAPI, TMapRouteFinder
 from weather import kma_weather
 from airconrition import seoul_airCondition
-
+from draw.draw import draw_plot
 """
 여기는 메인 실행 어플리캐이션입니다..
 """
@@ -53,3 +53,9 @@ print(f"자동차 경로 정보\n{cardata_str}\n")
 
 ptsdata_str = f"출발지 : {pt_param['start_adress']}\n도착지 : {pt_param['end_adress']}\n총 걷는 시간(sec) : {totalWalkTime}\n역 경로 : {stations}\n총 요금 : {totalFare}\n"
 print(f"자동차 경로 정보\n{ptsdata_str}\n")
+
+#plot 그리기
+
+my_draw = draw_plot(car ,pub)
+my_draw.traffic_pie_chart()
+ 
