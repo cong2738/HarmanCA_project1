@@ -32,29 +32,50 @@ class SubwayCongestion:
         """
         print (f'역 평균균 혼잡도: {self.con_avg:.2f}, 최종 혼잡도 가중치 결과값은 {self.weight:.2f}입니다.')
 
-    
 
+        def algo_first(self):
 
-def load_station_data(filepath: str) -> tuple:
-    """
-    파일에서 역 정보와 혼잡도 데이터를 로드하는 함수.
+            stations = {'5호선 목동': 50, '5호선 신정': 50, '5호선 까치산': 50, '5호선 화곡': 50}
 
-    Args:
-        filepath (str): 역 정보와 혼잡도 데이터가 저장된 파일의 경로.
+            flag = 0
 
-    Returns:
-        tuple: 역 이름 목록 (list)과 역별 혼잡도 사전 (dict).
-    """
-    data = {}
-    with open(filepath, "r", encoding="utf-8") as file:
-        exec(file.read(), {}, data)
+            for i,sta in enumerate(stations):
+                if sta == 0:
+                    continue
+                flag = flag + 1
 
-    stations = data["stations"]
-    condict = {key.replace("역", ""): value for key, value in data["condict"].items()}
-
-    return stations, condict
-   
             
+    
+    
+        
+
+
+
+
+
+
+
+
+        def load_station_data(filepath: str) -> tuple:
+        
+            data = {}
+        with open(filepath, "r", encoding="utf-8") as file:
+            exec(file.read(), {}, data)
+
+        stations = data["stations"]
+        condict = {key.replace("역", ""): value for key, value in data["condict"].items()}
+
+        return stations, condict
+    
+    """
+        파일에서 역 정보와 혼잡도 데이터를 로드하는 함수.
+
+        Args:
+            filepath (str): 역 정보와 혼잡도 데이터가 저장된 파일의 경로.
+
+        Returns:
+            tuple: 역 이름 목록 (list)과 역별 혼잡도 사전 (dict).
+        """
 
      
 
