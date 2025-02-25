@@ -1,7 +1,7 @@
 import requests
 import json
 from datetime import datetime
-from tmap.getLoc.geocoder import Geocoder   # 🚨 Geocoder 클래스 불러오기
+from getLoc.geocoder import Geocoder   # 🚨 Geocoder 클래스 불러오기
 import os
 
 class TMapRouteFinder:
@@ -154,7 +154,7 @@ class TMapRouteFinder:
 #         return f"🚗 여행 경로: {self.start_address} → {self.end_address} ({self.address_type})"
 
 class Car_weight:
-    def __init__(self, car_route_dt, ):
+    def __init__(self, car_route_dt, weather_dic):
         self.car_weight = self.set_carweight(self.routeJson,self.cooked_data) 
 
     def set_carweight(self,cooked_data):
