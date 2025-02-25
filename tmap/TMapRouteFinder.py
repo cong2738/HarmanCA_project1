@@ -166,9 +166,7 @@ class Car_weight:
         except ValueError:
             total_fare = 0  # 값이 없을 경우 0 처리
 
-        # **1️⃣ 기본 가중치 계산**
-        # distance_weight = float(distance_time) / (float(distance_time) + 200)  # 🚗 주행 시간 가중치
-        
+        # 🚗 주행시간 별 가중치
         if distance_time <= 600: distance_weight = 0.1 # 10분
         elif distance_time <= 1200: distance_weight = 0.75 # 20분
         elif distance_time <= 2400: distance_weight = 0.9 # 40분
@@ -177,7 +175,9 @@ class Car_weight:
         elif distance_time <= 6000: distance_weight = 0.3 # 100분
         else: distance_weight = 0.1
         print(distance_weight)
-        fare_weight = 1  # 💰 요금 가중치
+        
+        # 💰 요금 별 가중치
+        fare_weight = 1  
 
         if total_fare <= 1000: fare_weight = 1
         elif total_fare <= 1500: fare_weight = 0.75
