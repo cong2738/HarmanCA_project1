@@ -34,3 +34,11 @@ car_weight = TMapRouteFinder.Car_weight()
 
 #Pub_weights CLASS
 pub_weigh = public_transportation.Pub_weight()
+
+cw = car_weight.get_carweight()
+pw = pub_weigh.get_weight()
+
+#차와 대중교통의 비교를 위한 백분율 계산
+cwpw = cw+pw
+car = cw/cwpw
+pub = pw/cwpw
