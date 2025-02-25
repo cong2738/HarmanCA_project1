@@ -25,8 +25,8 @@ class SubwayCongestion:
 4. 최종 혼잡도 가중치 결과값은 1미만으로 계산한다 """
         def set_weight(self):
             self.con_avg
-       # 1. 평균 혼잡도의 최대치를 100으로 제한
-        effective = min(self.con_avg, 100)
+       # 1. 평균 혼잡도의 최대치를 300으로 제한
+        effective = min(self.con_avg, 300)
         
         # 2. if/elif를 통해 단위 계단 함수의 조건에 따른 multiplier 결정
         if effective >= 80:
@@ -39,7 +39,7 @@ class SubwayCongestion:
             multiplier = 1  # 혼잡도가 낮은 경우 원래 값을 사용
 
         # 3. 최종 가중치는 1 미만으로 계산되도록 정규화
-        weight = (effective * multiplier) / 100
+        weight = multiplier
         return weight
 
     def get_weight(self): 
@@ -76,3 +76,5 @@ class SubwayCongestion:
             str: 총 혼잡도와 가중치를 포함한 결과 문자열.
         """
         print (f'역 평균 혼잡도: {self.con_avg:.2f}, 최종 혼잡도 가중치 결과값은 {self.weight:.2f}입니다.')
+
+   
