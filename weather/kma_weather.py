@@ -13,14 +13,13 @@ class KMA_Weather:
         """한국의 현재 시간 "20250202"형태로 반환"""
         KST = datetime.timezone(datetime.timedelta(hours=9))
         current_time_kst = datetime.datetime.now(KST)
-        return current_time_kst.strftime('%Y%m%d')
+        return current_time_kst.strftime('%Y%m%d'), current_time_kst.strftime('%h00')
     
     def set_data(self):
         """API사용 대한민국 날씨전보JSON 반환"""
         KEY = os.getenv("DATAGOKR_API_KEY")
         district = "종로구"
-        todayString = self.timenow()
-        currentTime = '1000'
+        todayString, currentTime  = self.timenow()
         x,y = make_districtPosion_dic.get_districtPosion_dic()[district]
         URL = f"http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst?serviceKey={KEY}&pageNo=1&numOfRows=1000&dataType=JSON&base_date={todayString}&base_time={currentTime}&nx={x}&ny={y}"
         response = requests.get(URL)

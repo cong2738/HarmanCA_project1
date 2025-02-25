@@ -15,3 +15,5 @@ tmap - TmapAPI활용 데이터 요청
     
     public_transportation -tmap 대중교통 API 활용 여행 경로 검색(요청)
         https://transit.tmapmobility.com/
+
+    TMapRouteFinder - tmapAPI활용 자동차 경로 정보 검색
