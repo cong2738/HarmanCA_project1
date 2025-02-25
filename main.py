@@ -44,5 +44,12 @@ cwpw = cw+pw
 car = cw/cwpw
 pub = pw/cwpw
 
-print(f"{car}:{pub}")
-print(car_route_data)
+#경로 상세정보 딕셔너리에서 삭제(추출)
+route_detail = car_route_data.pop("경로 상세 정보")
+print(f"{car}:{pub}\n")
+
+cardata_str = '\n'.join([k+" : "+str(v) for k,v in car_route_data.items()])
+print(f"자동차 경로 정보\n{cardata_str}\n")
+
+ptsdata_str = f"출발지 : {pt_param['start_adress']}\n도착지 : {pt_param['end_adress']}\n총 걷는 시간(sec) : {totalWalkTime}\n역 경로 : {stations}\n총 요금 : {totalFare}\n"
+print(f"자동차 경로 정보\n{ptsdata_str}\n")
