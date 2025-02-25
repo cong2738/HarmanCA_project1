@@ -175,7 +175,8 @@ class Car_weight:
 
         # **1️⃣ 기본 가중치 계산**
         # distance_weight = float(distance_time) / (float(distance_time) + 200)  # 🚗 주행 시간 가중치
-        
+        distance_weight = 1
+
         if distance_time <= 1200: distance_weight = 0.25 # 20분
         elif distance_time <= 2400: distance_weight = 0.75 # 40분
         elif distance_time <= 3600: distance_weight = 1 # 60분
