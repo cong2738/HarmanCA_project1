@@ -161,7 +161,35 @@ class Car_weight:
         """
         차에 대한 가중치 계산해서 설정하는 매소드(Needs modification)
         """
-        pass
+         # 🚗 **기본 가중치 요소**
+        distance_km = cooked_data["총 이동 거리(km)"]
+        fare_str = cooked_data["총 요금 정보(원)"].replace(",", "")
+
+        try:
+            total_fare = int(fare_str)
+        except ValueError:
+            total_fare = 0  # 값이 없을 경우 0 처리
+
+        # **1️⃣ 기본 가중치 계산**
+        distance_weight = distance_km * 0.3  # 🚗 주행 거리 가중치
+        fare_weight = (total_fare / 1000) * 1  # 💰 요금 가중치
+
+        # **2️⃣ 날씨 반영 가중치** (기본값 1)
+        weather_factor = 1.0  
+
+        if self.weather_data:
+            rain_mm = self.weather_data.get("강수량(mm)", 0)
+            wind_speed = self.weather_data.get("풍속(m/s)", 0)
+
+            rain_factor = 1 + (rain_mm * 0.02)  # ☔ 비/눈 가중치
+            wind_factor = 1 + (wind_speed * 0.1)  # 🌬️ 풍속 가중치
+
+            weather_factor = rain_factor * wind_factor
+
+        # **최종 가중치 계산**
+        weight = (distance_weight + fare_weight) * weather_factor
+
+        return round(weight, 2)
 
     def get_carweight(self):
         """
