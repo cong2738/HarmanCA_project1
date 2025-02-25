@@ -180,15 +180,17 @@ class Car_weight:
         # **2️⃣ 날씨 반영 가중치** (기본값 1)
         weather_factor = 1.0  
 
-        rain_factor = 1 / (self.RN1 + 100)  # ☔ 비/눈 가중치
+        # rain_factor = 1 / (self.RN1 + 100)  # ☔ 비/눈 가중치
+        snow_factor = 1
+        if not self.PTY in [0, 1]:
+            snow_factor = 0.5
         temp_factor = abs(self.T1H) * 2 # 🌡️ 기온 가중치
 
-        weather_factor = rain_factor * temp_factor
-
         # **최종 가중치 계산**
-        weight = (distance_weight + fare_weight) * weather_factor
+        factors = [distance_weight, fare_weight, snow_factor, temp_factor]
+        weight = sum(factors)/len(factors)
 
-        return round(weight, 2)
+        return weight
 
     def get_carweight(self):
         """

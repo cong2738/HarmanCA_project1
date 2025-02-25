@@ -9,14 +9,40 @@ class SubwayCongestion:
         """
         self.stations = stations
         self.condict = condict
-        self.con_avg = self.set_conavg_stations()
-        self.weight = self.set_weight()
+        self.con_avg = self.set_conavg_stations() #역 평균 혼잡도
+        self.weight = self.set_weight() #최종 혼잡도 가중치 결과값
 
-    def set_weight(self):
-        self.con_avg
-        pass   
+   
+        """가중치 로직 설계
+ 1. if /elif 를 사용하여 unit step fucntion 구성 
 
-    def get_weight(self):
+2. unit step fuction의 최대값은 단위 계단 함수를 붙이면서 100으로 설정하나 
+
+3. unit step fuction의 값이 40이상이라면 혼잡하다고 가정하고 unit step fuction에서 가중치를 준다 *0.2
+   
+    60이상이라면 *0.3의 가중치 80이상이라면 *0.5의 가중치를 주어서 계산한다.
+
+4. 최종 혼잡도 가중치 결과값은 1미만으로 계산한다 """
+        def set_weight(self):
+            self.con_avg
+       # 1. 평균 혼잡도의 최대치를 100으로 제한
+        effective = min(self.con_avg, 100)
+        
+        # 2. if/elif를 통해 단위 계단 함수의 조건에 따른 multiplier 결정
+        if effective >= 80:
+            multiplier = 0.5
+        elif effective >= 60:
+            multiplier = 0.3
+        elif effective >= 40:
+            multiplier = 0.2
+        else:
+            multiplier = 1  # 혼잡도가 낮은 경우 원래 값을 사용
+
+        # 3. 최종 가중치는 1 미만으로 계산되도록 정규화
+        weight = (effective * multiplier) / 100
+        return weight
+
+    def get_weight(self): 
         return self.weight
     
     def set_conavg_stations(self): 
@@ -49,4 +75,4 @@ class SubwayCongestion:
         Returns:
             str: 총 혼잡도와 가중치를 포함한 결과 문자열.
         """
-        print (f'역 평균균 혼잡도: {self.con_avg:.2f}, 최종 혼잡도 가중치 결과값은 {self.weight:.2f}입니다.')
+        print (f'역 평균 혼잡도: {self.con_avg:.2f}, 최종 혼잡도 가중치 결과값은 {self.weight:.2f}입니다.')
