@@ -9,15 +9,27 @@ class SubwayCongestion:
         """
         self.stations = stations
         self.condict = condict
+        self.weight = self.set_weight()
 
-    def remove_bus_stations(self) -> list:
-        """
-        버스 정류장을 목록에서 제거하고 지하철 역만 반환하는 메서드.
+    def set_weight(self):
+        pass              
+    """""" 
 
-        Returns:
-            list: 혼잡도 정보가 있는 지하철 역의 이름 목록.
-        """
-        return [station for station in self.stations if station in self.condict]
+    def get_weight(self):
+        return self.weight
+
+    def remove_bus_stations(self):
+     filtered_stations = []
+     for station in self.stations:
+            if station in self.condict:
+             filtered_stations.append(station)
+
+             return filtered_stations
+
+     
+
+    
+
 
     def calculate_total_congestion(self) -> tuple:
         """
