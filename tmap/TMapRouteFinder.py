@@ -147,16 +147,6 @@ class TMapRouteFinder:
 
         return cooked_data
 
-class Trip:
-    def __init__(self, num_of_routes, start_address, end_address, address_type):
-        self.num_of_routes = num_of_routes
-        self.start_address = start_address
-        self.end_address = end_address
-        self.address_type = address_type
-
-    def __str__(self):
-        return f"🚗 여행 경로: {self.start_address} → {self.end_address} ({self.address_type})"
-
 class Car_weight:
     def __init__(self, cooked_route_data, weather_dic:dict):
         self.weather_dic = weather_dic #"T1H":"기온", "RN1":"강수량", "REH":"습도", "PTY":"강수형태", "WSD":"풍속"
