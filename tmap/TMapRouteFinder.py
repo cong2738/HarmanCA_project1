@@ -184,8 +184,6 @@ class Car_weight:
         elif total_fare <= 5000: fare_weight = 0.1
         else: fare_weight = 0
 
-        # print(fare_weight)
-
         # rain_factor = 1 / (self.RN1 + 100)  # ☔ 비/눈 가중치
         snow_factor = 1
         if self.weather_dic["PTY"] == "3": snow_factor = 0.001 # 눈 올때 자차 운행 안함
