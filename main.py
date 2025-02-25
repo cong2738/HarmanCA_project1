@@ -28,6 +28,8 @@ station_congestionDict = {'5호선 목동': 25, '5호선 신정': 25, '5호선 �
 subway_congestion = SubwayCongestion(stations, station_congestionDict) #지하철 혼잡도 계산CLASS
 sub_weight = subway_congestion.get_weight() #지하철 루트 혼잡도평균
 
+car_route_data = carTrip.get_cooked_data()
+
 #Car_weight CLASS
 car_weight = TMapRouteFinder.Car_weight(carTrip.get_cooked_data(), seoul_weather)
 
@@ -43,3 +45,4 @@ car = cw/cwpw
 pub = pw/cwpw
 
 print(f"{car}:{pub}")
+print(car_route_data)
