@@ -132,7 +132,7 @@ class TMapRouteFinder:
             "출발지": start_address,
             "도착지": end_address,
             "총 이동 거리(km)": round(total_distance / 1000, 2),
-            "총 소요 시간": f"{total_time // 60}분 {total_time % 60}초",
+            "총 소요 시간": total_time,
             "총 요금 정보(원)": f"{total_fare:,}",
             "택시 예상 요금(원)": f"{taxi_fare:,}",
             "경로 상세 정보": route_list
@@ -144,21 +144,21 @@ class TMapRouteFinder:
 
         return cooked_data
 
-# class Trip:
-#     def __init__(self, num_of_routes, start_address, end_address, address_type):
-#         self.num_of_routes = num_of_routes
-#         self.start_address = start_address
-#         self.end_address = end_address
-#         self.address_type = address_type
+class Trip:
+    def __init__(self, num_of_routes, start_address, end_address, address_type):
+        self.num_of_routes = num_of_routes
+        self.start_address = start_address
+        self.end_address = end_address
+        self.address_type = address_type
 
-#     def __str__(self):
-#         return f"🚗 여행 경로: {self.start_address} → {self.end_address} ({self.address_type})"
+    def __str__(self):
+        return f"🚗 여행 경로: {self.start_address} → {self.end_address} ({self.address_type})"
 
 class Car_weight:
     def __init__(self, cooked_route_data, weather_dic:dict):
         self.T1H, self.RN1, self.REH, self.PTY, self.WSD = weather_dic.values() #"T1H":"기온", "RN1":"강수량", "REH":"습도", "PTY":"강수형태", "WSD":"풍속"
         self.cooked_route_data = cooked_route_data
-        self.car_weight = self.set_carweight(self.routeJson,self.cooked_data) 
+        self.car_weight = self.set_carweight(self.cooked_route_data) 
 
     def set_carweight(self,cooked_data):
         """
@@ -174,20 +174,26 @@ class Car_weight:
             total_fare = 0  # 값이 없을 경우 0 처리
 
         # **1️⃣ 기본 가중치 계산**
-        distance_weight = 1 / (distance_time * 3)  # 🚗 주행 시간 가중치
-        fare_weight = (total_fare / total_fare + 100)  # 💰 요금 가중치
+        distance_weight = float(distance_time) / (float(distance_time)+100)  # 🚗 주행 시간 가중치
+        print(distance_time, distance_weight)
+        fare_weight = 1  # 💰 요금 가중치
 
-        # **2️⃣ 날씨 반영 가중치** (기본값 1)
-        weather_factor = 1.0  
+        if total_fare <= 1000: fare_weight = 1
+        elif total_fare <= 1500: fare_weight = 0.75
+        elif total_fare <= 2000: fare_weight = 0.5
+        elif total_fare <= 3000: fare_weight = 0.25
+        elif total_fare <= 5000: fare_weight = 0.1
+        else: fare_weight = 0
+
+        print(fare_weight)
 
         # rain_factor = 1 / (self.RN1 + 100)  # ☔ 비/눈 가중치
         snow_factor = 1
         if not self.PTY in [0, 1]:
-            snow_factor = 0.5
-        temp_factor = abs(self.T1H) * 2 # 🌡️ 기온 가중치
+            snow_factor = 0.01
 
         # **최종 가중치 계산**
-        factors = [distance_weight, fare_weight, snow_factor, temp_factor]
+        factors = [distance_weight, fare_weight, snow_factor]
         weight = sum(factors)/len(factors)
 
         return weight
