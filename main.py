@@ -29,7 +29,7 @@ subway_congestion = SubwayCongestion(stations, station_congestionDict) #지하�
 sub_weight = subway_congestion.get_weight() #지하철 루트 혼잡도평균
 
 #Car_weight CLASS
-car_weight = TMapRouteFinder.Car_weight()
+car_weight = TMapRouteFinder.Car_weight(carTrip.get_cooked_data(), seoul_weather)
 
 #Pub_weights CLASS
 pub_weigh = public_transportation.Pub_weight(seoul_weather, ari_condition, sub_weight)

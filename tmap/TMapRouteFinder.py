@@ -156,7 +156,7 @@ class Trip:
 
 class Car_weight:
     def __init__(self, cooked_route_data, weather_dic:dict):
-        self.T1H, self.RN1, self.REH, self.PTY, self.WSD = weather_dic.values() #"T1H":"기온", "RN1":"강수량", "REH":"습도", "PTY":"강수형태", "WSD":"풍속"
+        self.weather_dic = weather_dic #"T1H":"기온", "RN1":"강수량", "REH":"습도", "PTY":"강수형태", "WSD":"풍속"
         self.cooked_route_data = cooked_route_data
         self.car_weight = self.set_carweight(self.cooked_route_data) 
 
@@ -184,7 +184,7 @@ class Car_weight:
         elif distance_time <= 4800: distance_weight = 0.45 # 80분
         elif distance_time <= 6000: distance_weight = 0.3 # 100분
         else: distance_weight = 0.1
-
+        print(distance_weight)
         fare_weight = 1  # 💰 요금 가중치
 
         if total_fare <= 1000: fare_weight = 1
@@ -198,11 +198,11 @@ class Car_weight:
 
         # rain_factor = 1 / (self.RN1 + 100)  # ☔ 비/눈 가중치
         snow_factor = 1
-        if self.PTY in [3]: snow_factor = 0.01 # 눈 올때 자차 운행 안함
+        if self.weather_dic["PTY"] == "3": snow_factor = 0.001 # 눈 올때 자차 운행 안함
 
         # **최종 가중치 계산**
-        factors = [distance_weight, fare_weight, snow_factor]
-        weight = sum(factors)/len(factors)
+        factors = [distance_weight, fare_weight]
+        weight = (sum(factors)/len(factors)) * snow_factor
 
         return weight
 
