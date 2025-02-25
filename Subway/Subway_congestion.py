@@ -22,12 +22,12 @@ class SubwayCongestion:
         # if/elif를 통해 단위 계단 함수의 조건에 따른 multiplier 결정
         if effective >= 80:
             multiplier = 0.2
-        elif effective >= 60:
+        elif effective >= 60: #혼잡
             multiplier = 0.3
-        elif effective >= 40:
+        elif effective >= 40: #보통
             multiplier = 0.5
         else:
-            multiplier = 1  # 혼잡도가 낮은 경우 원래 값을 사용
+            multiplier = 1  #여유(1에 가까울수록 여유로움움)
 
         
         weight = multiplier
