@@ -38,7 +38,7 @@ class SubwayCongestion:
         return con_avg
 
     
-    def get_congestion_result(self) -> str:
+    def print_congestion_result(self) -> str:
         """
         평균 및 가중치 출력 매소드
 
@@ -58,18 +58,6 @@ class SubwayCongestion:
                 if sta == 0:
                     continue
                 flag = flag + 1
-
-            
-    
-    
-        
-
-
-
-
-
-
-
 
         def load_station_data(filepath: str) -> tuple:
         
