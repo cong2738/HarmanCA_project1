@@ -1,4 +1,4 @@
-from subway.Subway_congestion import SubwayCongestion
+from Subway.Subway_congestion import SubwayCongestion
 from tmap import public_transportation, subway_congestionAPI, TMapRouteFinder
 from weather import kma_weather
 from airconrition import seoul_airCondition
@@ -19,7 +19,7 @@ my_tmap =public_transportation.Trip(num_of_routes, *pt_param.values())
 weather = kma_weather.KMA_Weather()
 aircondition = seoul_airCondition.Seoul_Air_Quality()
 
-seou_weather = weather.get_weatherDict()
+seoul_weather = weather.get_weatherDict()
 get_Air_Qualitys = aircondition.get_Air_Qualitys()
 totalFare,totalTime,totalWalkTime,stations = my_tmap.get_routes()[0]
 # station_congestionDict = subway_congestion.get_station_congestionDict()
