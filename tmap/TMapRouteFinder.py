@@ -53,14 +53,16 @@ class TMapRouteFinder:
             print("⚠️ 좌표 변환 실패로 인해 경로 탐색을 종료합니다.")
             return {}
 
+        # 출발지 및 도착지 좌표, 현재시간
         start_x, start_y = start_coords
         end_x, end_y = end_coords
         current_time = datetime.now().strftime("%Y%m%d%H%M%S")
 
+        # body param
         payload = {
-            "tollgateFareOption": 16,
-            "roadType": 32,
-            "directionOption": 1,
+            "tollgateFareOption": 16, # 요금 가중치 정보입니다. -> 16(기본값) 
+            "roadType": 32, # 출발 지점의 도로 타입 정보입니다. -> 32:가까운 도로(기본값)
+            "directionOption": 1, # 출발 지점의 주행 방향입니다. -> 1: 주행 방향 우선
             "endX": end_x,
             "endY": end_y,
             "endRpFlag": "G",
@@ -108,6 +110,7 @@ class TMapRouteFinder:
         API에서 받은 데이터를 상황에 맞게 조리하는 매소드
         """
         # 🚀 전체 경로 정보 추출 (총 거리, 시간, 요금 정보)
+        # json 형태의 딕셔너리 데이터에서 "features"의 첫 번째 요소인 전체 경로 정보를 추출함
         summary = data.get("features", [])[0].get("properties", {})
         total_distance = summary.get("totalDistance", "정보 없음")
         total_time = summary.get("totalTime", "정보 없음")
@@ -166,7 +169,7 @@ class Car_weight:
         # **1️⃣ 기본 가중치 계산**
         # distance_weight = float(distance_time) / (float(distance_time) + 200)  # 🚗 주행 시간 가중치
         
-        if distance_time <= 600: distance_weight = 0 # 10분
+        if distance_time <= 600: distance_weight = 0.1 # 10분
         elif distance_time <= 1200: distance_weight = 0.75 # 20분
         elif distance_time <= 2400: distance_weight = 0.9 # 40분
         elif distance_time <= 3600: distance_weight = 1 # 60분
