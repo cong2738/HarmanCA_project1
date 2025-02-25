@@ -1,8 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-class Drawplot:
-    class Drawplot:
+class draw_plot:
+    
      def __init__(self, car_percentage, pub_percentage):
         """
         차량과 대중교통 백분율을 받아서 표와 그래프를 출력하는 클래스
@@ -12,7 +12,7 @@ class Drawplot:
         self.car_percentage = car_percentage
         self.pub_percentage = pub_percentage
 
-    def display_table(self):
+     def display_table(self):
         """ 백분율 데이터를 표로 출력 """
         data = {
             "이동 수단": ["차량", "대중교통"],
@@ -21,8 +21,8 @@ class Drawplot:
         df = pd.DataFrame(data)
         print(df)
 
-    def plot_comparison(self):
-        """ 차량 vs 대중교통 가중치를 막대 그래프로 출력 """
+        def plot_comparison(self):
+            """ 차량 vs 대중교통 가중치를 막대 그래프로 출력 """
         labels = ["차량", "대중교통"]
         values = [self.car_percentage, self.pub_percentage]
 
