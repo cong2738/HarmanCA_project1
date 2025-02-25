@@ -115,14 +115,14 @@ class Pub_weight:
         
         weather_w = 1
         if temp <= -5: weather_w = 0.2
-        if temp <= 0: weather_w = 0.4
+        if temp <= 0: weather_w = 0.5
         if temp <= 5: weather_w = 0.6
-        if temp <= 20: weather_w = 1
+        if temp <= 25: weather_w = 1
         if temp <= 30: weather_w = 0.5
         else: weather_w = 0.3
 
         rain_w = 1
-        if rain_w >= 60: 0.5
+        if rain >= 60: 0.5
 
         wlist = [self.weight,self.sub_con,pm25w,pm10w,weather_w,rain_w]
         self.weight = sum(wlist)/len(wlist)
