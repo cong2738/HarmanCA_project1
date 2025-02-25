@@ -22,7 +22,7 @@ class draw_plot:
         colors = ['blue', 'green']
 
         plt.figure(figsize=(6, 6))
-        plt.pie(values, labels=labels, colors=colors, startangle=140, textprops={'fontsize': 12})
+        plt.pie(values, labels=labels, colors=colors, startangle=90, textprops={'fontsize': 12})
         plt.title("차량 vs 대중교통 가중치 비교", fontsize=14)
         plt.show()
 
