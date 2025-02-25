@@ -31,8 +31,9 @@ class SubwayCongestion:
 
         stations_len = len(self.stations)
         if target_idx == stations_len - 1: 
-             for station in self.stations:
-                  self.condict[station] = 10 # 평균 CSV 보면서 값 조정해나가면 됨
+            target_data = 20 # 평균 CSV 보면서 값 조정해나가면 됨
+            for station in self.stations:
+                self.condict[station] = target_data
 
         for j in range(target_idx):
             self.condict[self.stations[j]] = target_data
