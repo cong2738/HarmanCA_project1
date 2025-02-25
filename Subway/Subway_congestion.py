@@ -12,8 +12,8 @@ class SubwayCongestion:
         self.con_avg = self.set_conavg_stations()
         self.weight = self.set_weight()
 
-    def set_weight(self,con_avg):
-        
+    def set_weight(self):
+        self.con_avg
         pass   
 
     def get_weight(self):
@@ -51,29 +51,6 @@ class SubwayCongestion:
         """
         print (f'역 평균균 혼잡도: {self.con_avg:.2f}, 최종 혼잡도 가중치 결과값은 {self.weight:.2f}입니다.')
 
-
-        def algo_first(self):
-
-            stations = {'5호선 목동': 50, '5호선 신정': 50, '5호선 까치산': 50, '5호선 화곡': 50}
-
-            flag = 0
-
-            for i,sta in enumerate(stations):
-                if sta == 0:
-                    continue
-                flag = flag + 1
-
-        def load_station_data(filepath: str) -> tuple:
-        
-            data = {}
-        with open(filepath, "r", encoding="utf-8") as file:
-            exec(file.read(), {}, data)
-
-        stations = data["stations"]
-        condict = {key.replace("역", ""): value for key, value in data["condict"].items()}
-
-        return stations, condict
-    
     """
         파일에서 역 정보와 혼잡도 데이터를 로드하는 함수.
 
