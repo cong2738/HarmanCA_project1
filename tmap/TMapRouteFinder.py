@@ -177,13 +177,14 @@ class Car_weight:
         # distance_weight = float(distance_time) / (float(distance_time) + 200)  # 🚗 주행 시간 가중치
         distance_weight = 1
 
-        if distance_time <= 1200: distance_weight = 0.25 # 20분
-        elif distance_time <= 2400: distance_weight = 0.75 # 40분
+        if distance_time <= 600: distance_weight = 0.4 # 10분
+        elif distance_time <= 1200: distance_weight = 0.75 # 20분
+        elif distance_time <= 2400: distance_weight = 0.9 # 40분
         elif distance_time <= 3600: distance_weight = 1 # 60분
-        elif distance_time <= 4800: distance_weight = 0.5 # 80분
+        elif distance_time <= 4800: distance_weight = 0.45 # 80분
         elif distance_time <= 6000: distance_weight = 0.3 # 100분
         else: distance_weight = 0.1
-
+        print(distance_weight)
         fare_weight = 1  # 💰 요금 가중치
 
         if total_fare <= 1000: fare_weight = 1
@@ -197,11 +198,11 @@ class Car_weight:
 
         # rain_factor = 1 / (self.RN1 + 100)  # ☔ 비/눈 가중치
         snow_factor = 1
-        if self.PTY in [3]: snow_factor = 0.01 # 눈 올때 자차 운행 안함
+        if self.PTY in [0]: snow_factor = 0.001 # 눈 올때 자차 운행 안함
 
         # **최종 가중치 계산**
-        factors = [distance_weight, fare_weight, snow_factor]
-        weight = sum(factors)/len(factors)
+        factors = [distance_weight, fare_weight]
+        weight = (sum(factors)/len(factors)) * snow_factor
 
         return weight
 
