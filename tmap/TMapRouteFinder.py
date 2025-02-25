@@ -173,7 +173,7 @@ class Car_weight:
         elif distance_time <= 4800: distance_weight = 0.45 # 80분
         elif distance_time <= 6000: distance_weight = 0.3 # 100분
         else: distance_weight = 0.1
-        print(distance_weight)
+        # print(distance_weight)
         fare_weight = 1  # 💰 요금 가중치
 
         if total_fare <= 1000: fare_weight = 1
@@ -183,7 +183,7 @@ class Car_weight:
         elif total_fare <= 5000: fare_weight = 0.1
         else: fare_weight = 0
 
-        print(fare_weight)
+        # print(fare_weight)
 
         # rain_factor = 1 / (self.RN1 + 100)  # ☔ 비/눈 가중치
         snow_factor = 1
