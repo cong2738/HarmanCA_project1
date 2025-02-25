@@ -36,13 +36,13 @@ class Trip:
             totalTime = route_list[i]["totalTime"]
             
             station_list = list()
-            # ["WALK","SUBWAY","BUS"]
+            # ["WALK","SUBWAY", "BUS"]
             for section in route_list[i]["legs"]:       
                 section_type = section["mode"]
-                if section_type == "WALK": continue
-                # route = section["route"]
+                if section_type in ["WALK","BUS"] : continue
+                route_name = section["route"].replace("수도권", "")
                 passStopList = section["passStopList"]["stationList"]
-                station_list = [station["stationName"] for station in passStopList]
+                station_list = [route_name + " " + station["stationName"] for station in passStopList]
             res.append([fare,totalTime,totalWalkTime,station_list])
 
         return res
@@ -102,8 +102,30 @@ class Trip:
         print("✅ tmap_trip.json 파일 저장 완료!")
 
 class Pub_weight:
-    def __init__(self):
-        self.weight = 0
+    def __init__(self,weather:dict,air_con:tuple,sub_con:int):
+        self.weather = weather
+        self.aircon = air_con
+        self.sub_con = sub_con
+        self.weight = 1
+
+    def set_weight(self):
+        pm25w,pm10w = self.air_con
+        
+        temp, rain, wet, rainform, _ = self.weather.values()
+        
+        weather_w = 1
+        if temp <= -5: weather_w = 0.2
+        if temp <= 0: weather_w = 0.4
+        if temp <= 5: weather_w = 0.6
+        if temp <= 20: weather_w = 1
+        if temp <= 30: weather_w = 0.5
+        else: weather_w = 0.3
+
+        rain_w = 1
+        if rain_w >= 60: 0.5
+
+        wlist = [self.weight,self.sub_con,pm25w,pm10w,weather_w,rain_w]
+        self.weight = sum(wlist)/len(wlist)
     
     def get_weight(self):
         return self.weight
