@@ -14,13 +14,24 @@ class SubwayCongestion:
 
     def set_weight(self,con_avg):
         
-        pass              
+        pass   
 
     def get_weight(self):
         return self.weight
     
-    def set_conavg_stations():
-        pass
+    def set_conavg_stations(self):
+        for i, station in enumerate(self.stations):
+            if self.condict[station] != 0: break
+        
+        target_data = self.stations[i]
+        target_idx = i
+
+        for j in range(target_idx):
+            self.condict[self.stations[j]] = target_data
+        
+        con_avg = sum(self.condict.values())/len(self.condict.values())
+
+        return con_avg
 
     
     def get_congestion_result(self) -> str:
