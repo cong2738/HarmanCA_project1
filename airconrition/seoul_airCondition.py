@@ -6,7 +6,7 @@ class Seoul_Air_Quality:
     Seoul_Air_Quality_dict : 서울시 실시간 미세먼지 데이터가 저장된 dict
     """
     def __init__(self):
-        self.Seoul_Air_Quality_dict = self.set_seoul_air_quality()
+        self.aircon_dict = self.set_seoul_air_quality()
 
     def set_seoul_air_quality(self):
         api_key = os.getenv("JIHO_SEOUL_API_KEY") 
@@ -23,7 +23,17 @@ class Seoul_Air_Quality:
         return res
 
     def get_Air_Qualitys(self):
-        return self.Seoul_Air_Quality_dict
+        return self.aircon_dict
+    
+    def get_aircon_alam(self):
+        pm10a,pm25a = 1, 1
+        pm10 = self.aircon_dict["PM10"]
+        pm25 = self.aircon_dict["PM25"]
+        if pm10 >= 150: pm10a = 0.7
+        elif pm10 >= 300: pm10a = 0.5
+        if pm25 >= 75: pm25a = 0.7
+        elif pm25 >= 150: pm25a = 0.5
+
 
 if __name__ == "__main__":
     A = Seoul_Air_Quality()

@@ -13,7 +13,10 @@ class KMA_Weather:
         """한국의 현재 시간 "20250202"형태로 반환"""
         KST = datetime.timezone(datetime.timedelta(hours=9))
         current_time_kst = datetime.datetime.now(KST)
-        return current_time_kst.strftime('%Y%m%d'), current_time_kst.strftime('%H00')
+        cur_date = current_time_kst.strftime('%Y%m%d')
+        cur_hour = current_time_kst.strftime('%H00')
+        cur_min = current_time_kst.strftime('%M')
+        return (cur_date, "0600" if int(cur_min) < 30 else cur_hour)
     
     def set_data(self):
         """API사용 대한민국 날씨전보JSON 반환"""

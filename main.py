@@ -20,22 +20,22 @@ weather = kma_weather.KMA_Weather()
 aircondition = seoul_airCondition.Seoul_Air_Quality()
 
 seoul_weather = weather.get_weatherDict()
-get_Air_Qualitys = aircondition.get_Air_Qualitys()
+ari_condition = aircondition.get_Air_Qualitys()
 totalFare,totalTime,totalWalkTime,stations = my_tmap.get_routes()[0]
 # station_congestionDict = subway_congestion.get_station_congestionDict()
 # print(station_congestionDict)
-
 station_congestionDict = {'5호선 목동': 25, '5호선 신정': 25, '5호선 까치산': 28, '5호선 화곡': 28}
+
 subway_congestion = SubwayCongestion(stations, station_congestionDict)
-subway_congestion.get_congestion_status()
+sub_weight = subway_congestion.get_weight()
 
 #Car_weight CLASS
-car_weight = TMapRouteFinder.Car_weight()
+#car_weight = TMapRouteFinder.Car_weight()
 
 #Pub_weights CLASS
-pub_weigh = public_transportation.Pub_weight()
+pub_weigh = public_transportation.Pub_weight(seoul_weather, ari_condition, sub_weight)
 
-cw = car_weight.get_carweight()
+#cw = car_weight.get_carweight()
 pw = pub_weigh.get_weight()
 
 #차와 대중교통의 비교를 위한 백분율 계산
