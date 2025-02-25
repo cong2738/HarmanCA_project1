@@ -50,9 +50,3 @@ class SubwayCongestion:
             str: 총 혼잡도와 가중치를 포함한 결과 문자열.
         """
         print (f'역 평균균 혼잡도: {self.con_avg:.2f}, 최종 혼잡도 가중치 결과값은 {self.weight:.2f}입니다.')
-     
-
-    
-
-
-    
