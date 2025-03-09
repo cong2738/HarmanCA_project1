@@ -14,7 +14,9 @@ class KMA_Weather:
         KST = datetime.timezone(datetime.timedelta(hours=9))
         current_time_kst = datetime.datetime.now(KST)
         cur_date = current_time_kst.strftime('%Y%m%d')
+        cur_date = "0225"
         cur_hour = current_time_kst.strftime('%H00')
+        cur_hour = "1200"
         cur_min = current_time_kst.strftime('%M')
         return (cur_date, "0600" if int(cur_min) < 30 else cur_hour)
     
